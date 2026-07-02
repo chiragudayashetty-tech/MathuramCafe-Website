@@ -29,14 +29,14 @@
 }
 
 .navbar-logo img {
-  height: 90px;
-  transform: scale(1.4);
+  height: 140px; /* 2x size */
+  transform: scale(1.2);
   transform-origin: left center;
   transition: var(--transition);
 }
 
 .navbar.scrolled .navbar-logo img {
-  height: 70px;
+  height: 100px;
 }
 
 .nav-menu ul {
@@ -125,12 +125,12 @@
   }
   
   .navbar-logo img {
-    height: 70px;
+    height: 120px; /* Nearly 2x size for mobile */
     transform: none; /* Remove scale to prevent alignment issues */
   }
   
   .navbar.scrolled .navbar-logo img {
-    height: 60px;
+    height: 80px;
     transform: none;
   }
   

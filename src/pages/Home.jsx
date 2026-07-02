@@ -69,7 +69,7 @@ const Home = () => {
           <h1 className="hero-tagline gold-text">{websiteData.tagline}</h1>
           <div className="hero-buttons">
             <Link to="/menu" className="btn btn-primary">View Menu</Link>
-            <a href={websiteData.zomato} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Order on Zomato</a>
+            <a href={websiteData.zomato} target="_blank" rel="noopener noreferrer" className="btn btn-zomato">Order on Zomato</a>
           </div>
         </motion.div>
       </section>

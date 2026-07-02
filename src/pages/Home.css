@@ -69,6 +69,19 @@
   padding-bottom: 30px; /* Prevent overlap with anything below */
 }
 
+.btn-zomato {
+  background-color: rgba(20, 10, 7, 0.8);
+  color: var(--color-white);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.btn-zomato:hover {
+  background-color: #E23744; /* Zomato Red */
+  border-color: #E23744;
+  color: white;
+}
+
 /* Quick Info Section */
 .bg-light {
   background-color: var(--color-white);
