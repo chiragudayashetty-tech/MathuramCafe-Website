@@ -9,6 +9,7 @@ import Reviews from './pages/Reviews';
 import VisitUs from './pages/VisitUs';
 import Contact from './pages/Contact';
 import Preloader from './components/Preloader';
+import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion';
 import './index.css';
 
@@ -22,6 +23,7 @@ function App() {
           <Preloader key="preloader" onComplete={() => setLoading(false)} />
         )}
       </AnimatePresence>
+      <ScrollToTop />
       
       {!loading && (
         <div className="app-container">

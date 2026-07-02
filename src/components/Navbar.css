@@ -133,4 +133,12 @@
     height: 60px;
     transform: none;
   }
+  
+  .navbar.transparent-home .nav-menu.active a {
+    color: var(--color-primary);
+  }
+  
+  .navbar.transparent-home .nav-menu.active a::after {
+    background: var(--color-secondary);
+  }
 }
