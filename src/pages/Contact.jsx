@@ -56,13 +56,13 @@ const Contact = () => {
               <p>Order Online</p>
             </a>
 
-            <div className="contact-card address-card">
+            <a href="https://maps.app.goo.gl/B9Z229V3jD3s3hRJA" target="_blank" rel="noopener noreferrer" className="contact-card address-card">
               <div className="contact-icon address-icon">
                 <FaMapMarkerAlt />
               </div>
-              <h3>Address</h3>
+              <h3 className="gold-text">Address</h3>
               <p>{websiteData.address}</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>

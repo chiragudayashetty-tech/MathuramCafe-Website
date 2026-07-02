@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import galleryData from '../data/gallery.json';
+import { motion, AnimatePresence } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
 import { FaTimes } from 'react-icons/fa';
+import galleryData from '../data/gallery.json';
 import './Gallery.css';
 
 const Gallery = () => {
@@ -24,10 +26,16 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery-page">
+    <motion.div 
+      className="gallery-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="container">
         <div className="page-header text-center">
-          <h1>Our Gallery</h1>
+          <h1 className="gold-text">Our Gallery</h1>
           <p>A glimpse into Mathuram Cafe's ambiance, food, and culture.</p>
         </div>
 
@@ -43,20 +51,36 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="masonry-gallery">
-          {filteredGallery.map((img, idx) => (
-            <div 
-              key={idx} 
-              className="masonry-item"
-              onClick={() => openLightbox(img.src)}
-            >
-              <img src={img.src} alt={img.alt} loading="lazy" />
-              <div className="item-overlay">
-                <span>View</span>
-              </div>
-            </div>
-          ))}
-        </div>
+        <motion.div 
+          className="masonry-gallery"
+          layout
+        >
+          <AnimatePresence>
+            {filteredGallery.map((img, idx) => (
+              <motion.div 
+                key={img.src} // Use src as key for reliable layout animations
+                layout
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 0.4 }}
+                className="masonry-item-wrapper"
+              >
+                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} scale={1.02} transitionSpeed={2000}>
+                  <div 
+                    className="masonry-item"
+                    onClick={() => openLightbox(img.src)}
+                  >
+                    <img src={img.src} alt={img.alt} loading="lazy" />
+                    <div className="item-overlay">
+                      <span className="glass-panel">View</span>
+                    </div>
+                  </div>
+                </Tilt>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+        </motion.div>
       </div>
 
       {/* Lightbox */}
@@ -68,7 +92,7 @@ const Gallery = () => {
           <img src={lightboxImage} alt="Enlarged" onClick={(e) => e.stopPropagation()} />
         </div>
       )}
-    </div>
+    </motion.div>
   );
 };
 

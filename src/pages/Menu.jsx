@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
+import { Search } from 'lucide-react';
 import menuData from '../data/menu.json';
 import './Menu.css';
 
@@ -6,12 +9,11 @@ const Menu = () => {
   const [activeCategory, setActiveCategory] = useState(menuData.menu[0].category);
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Handle scroll to sync category tabs if needed, or just let users click tabs
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
     const element = document.getElementById(`category-${category.replace(/\s+/g, '-')}`);
     if (element) {
-      const yOffset = -100; 
+      const yOffset = -120; // accounting for sticky header
       const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({top: y, behavior: 'smooth'});
     }
@@ -24,7 +26,7 @@ const Menu = () => {
         const element = document.getElementById(`category-${cat.category.replace(/\s+/g, '-')}`);
         if (element) {
           const rect = element.getBoundingClientRect();
-          if (rect.top <= 150) {
+          if (rect.top <= 180) {
             current = cat.category;
           }
         }
@@ -33,7 +35,7 @@ const Menu = () => {
         setActiveCategory(current);
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -44,13 +46,36 @@ const Menu = () => {
     return { ...category, items };
   }).filter(category => category.items.length > 0);
 
+  // Stagger animation container
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 100 } }
+  };
+
   return (
-    <div className="menu-page">
-      <div className="menu-header">
-        <h1>Our Menu</h1>
+    <motion.div 
+      className="menu-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="menu-header glass-panel">
+        <h1 className="gold-text">Our Menu</h1>
         <p>Discover our traditional South Indian delicacies.</p>
         
         <div className="menu-search">
+          <Search size={20} className="search-icon" color="var(--color-secondary)" />
           <input 
             type="text" 
             placeholder="Search for dishes..." 
@@ -61,8 +86,8 @@ const Menu = () => {
       </div>
 
       <div className="menu-container container">
-        {/* Sticky Sidebar / Tabs */}
-        <div className="menu-sidebar">
+        {/* Sticky Mobile-First Horizontal Tabs */}
+        <div className="menu-sidebar glass-panel">
           <ul className="category-tabs">
             {menuData.menu.map((cat, idx) => (
               <li 
@@ -78,39 +103,71 @@ const Menu = () => {
 
         {/* Menu Content */}
         <div className="menu-content">
-          {filteredMenu.length === 0 ? (
-            <div className="no-results">No dishes found matching "{searchQuery}"</div>
-          ) : (
-            filteredMenu.map((cat, idx) => (
-              <div 
-                key={idx} 
-                id={`category-${cat.category.replace(/\s+/g, '-')}`} 
-                className="menu-category-section"
+          <AnimatePresence>
+            {filteredMenu.length === 0 ? (
+              <motion.div 
+                className="no-results glass-panel"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
               >
-                <h2 className="category-title">{cat.category}</h2>
-                <div className="menu-items-grid">
-                  {cat.items.map((item, itemIdx) => (
-                    <div key={itemIdx} className="menu-item-card">
-                      <div className="item-details">
-                        <div className="item-header">
-                          <h3 className="item-name">{item.name}</h3>
-                          <div className="item-price">₹{item.price}</div>
-                        </div>
-                        <div className="item-badges">
-                          {item.bestseller && <span className="badge bestseller">Bestseller</span>}
-                          {item.chefRecommended && <span className="badge chef-rec">Chef's Pick</span>}
-                          {item.signatureDish && <span className="badge signature">Signature</span>}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+                No dishes found matching "{searchQuery}"
+              </motion.div>
+            ) : (
+              filteredMenu.map((cat, idx) => (
+                <div 
+                  key={idx} 
+                  id={`category-${cat.category.replace(/\s+/g, '-')}`} 
+                  className="menu-category-section"
+                >
+                  <motion.h2 
+                    className="category-title gold-text"
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                  >
+                    {cat.category}
+                  </motion.h2>
+                  
+                  <motion.div 
+                    className="menu-items-grid"
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.1 }}
+                  >
+                    {cat.items.map((item, itemIdx) => (
+                      <motion.div key={itemIdx} variants={itemVariants}>
+                        <Tilt 
+                          tiltMaxAngleX={10} 
+                          tiltMaxAngleY={10} 
+                          scale={1.02} 
+                          transitionSpeed={2500} 
+                          className="tilt-wrapper"
+                        >
+                          <div className="menu-item-card glass-panel">
+                            <div className="item-details">
+                              <div className="item-header">
+                                <h3 className="item-name">{item.name}</h3>
+                                <div className="item-price gold-text">₹{item.price}</div>
+                              </div>
+                              <div className="item-badges">
+                                {item.bestseller && <span className="badge bestseller">Bestseller</span>}
+                                {item.chefRecommended && <span className="badge chef-rec">Chef's Pick</span>}
+                                {item.signatureDish && <span className="badge signature">Signature</span>}
+                              </div>
+                            </div>
+                          </div>
+                        </Tilt>
+                      </motion.div>
+                    ))}
+                  </motion.div>
                 </div>
-              </div>
-            ))
-          )}
+              ))
+            )}
+          </AnimatePresence>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

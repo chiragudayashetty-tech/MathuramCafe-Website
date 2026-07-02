@@ -1,0 +1,68 @@
+.preloader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1a1a;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1500px;
+  overflow: hidden;
+}
+
+.temple-doors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.door {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(135deg, #111 0%, #222 100%);
+  border: 2px solid rgba(212, 166, 90, 0.2);
+  position: relative;
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.8);
+}
+
+.door::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  border: 2px dashed rgba(212, 166, 90, 0.4);
+}
+
+.left-door {
+  border-right: 4px solid var(--color-secondary);
+}
+
+.right-door {
+  border-left: 4px solid var(--color-secondary);
+}
+
+.mandala-container {
+  z-index: 3;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 20px rgba(212, 166, 90, 0.6));
+}
+
+.mandala-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

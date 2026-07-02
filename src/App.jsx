@@ -8,25 +8,37 @@ import Gallery from './pages/Gallery';
 import Reviews from './pages/Reviews';
 import VisitUs from './pages/VisitUs';
 import Contact from './pages/Contact';
+import Preloader from './components/Preloader';
+import { AnimatePresence } from 'framer-motion';
 import './index.css';
 
 function App() {
+  const [loading, setLoading] = React.useState(true);
+
   return (
     <Router>
-      <div className="app-container">
-        <Navbar />
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/reviews" element={<Reviews />} />
-            <Route path="/visit" element={<VisitUs />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+      <AnimatePresence mode="wait">
+        {loading && (
+          <Preloader key="preloader" onComplete={() => setLoading(false)} />
+        )}
+      </AnimatePresence>
+      
+      {!loading && (
+        <div className="app-container">
+          <Navbar />
+          <main className="main-content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/menu" element={<Menu />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/reviews" element={<Reviews />} />
+              <Route path="/visit" element={<VisitUs />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      )}
     </Router>
   );
 }

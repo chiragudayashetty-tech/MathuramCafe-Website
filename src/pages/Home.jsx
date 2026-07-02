@@ -1,39 +1,74 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import websiteData from '../data/websiteData.json';
 import menuData from '../data/menu.json';
 import reviewsData from '../data/reviews.json';
 import { FaLeaf, FaMotorcycle, FaCar, FaSnowflake } from 'react-icons/fa';
 import './Home.css';
 
+const VIDEOS = [
+  '/assets/Videos/Resturant opening video.MP4',
+  '/assets/Videos/Ghee Pudi Dosa Making.MP4',
+  '/assets/Videos/Ghee Podi Idli .MP4',
+  '/assets/Videos/Mens Bajji Making.MP4',
+  '/assets/Videos/Onion dosa Making.MP4'
+];
+
 const Home = () => {
-  // Find signature dishes
-  const signatureDishes = [];
-  menuData.menu.forEach(category => {
-    category.items.forEach(item => {
-      if (item.signatureDish) signatureDishes.push(item);
-    });
-  });
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * VIDEOS.length);
+    setCurrentVideoIndex(randomIndex);
+  }, []);
+
+  const handleVideoEnded = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % VIDEOS.length);
+  };
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().catch(e => console.log('Autoplay blocked:', e));
+    }
+  }, [currentVideoIndex]);
   
-  // Featured reviews
   const featuredReviews = reviewsData.filter(r => r.featured).slice(0, 3);
 
   return (
     <div className="home-page">
       {/* Hero Section */}
-      <section className="hero">
-        <video autoPlay loop muted playsInline className="hero-video">
-          <source src="/assets/Videos/Resturant opening video.MP4" type="video/mp4" />
-        </video>
+      <section className="hero-section">
+        <motion.video 
+          ref={videoRef}
+          autoPlay 
+          muted 
+          playsInline
+          onEnded={handleVideoEnded}
+          className="hero-video"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+          key={currentVideoIndex}
+        >
+          <source src={VIDEOS[currentVideoIndex]} type="video/mp4" />
+        </motion.video>
         <div className="hero-overlay"></div>
-        <div className="hero-content">
-          <img src="/assets/Brand/logo/White logo.webp" alt="Mathuram Cafe" className="hero-logo" />
-          <h1 className="hero-tagline">{websiteData.tagline}</h1>
+        <motion.div 
+          className="hero-content"
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
+          <img src="/assets/Brand/logo/White logo.webp" alt="Mathuram Cafe" className="hero-logo" style={{ transform: 'scale(1.5)', marginBottom: '30px' }} />
+          <h1 className="hero-tagline gold-text">{websiteData.tagline}</h1>
           <div className="hero-buttons">
             <Link to="/menu" className="btn btn-primary">View Menu</Link>
             <a href={websiteData.zomato} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Order on Zomato</a>
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* Quick Info Section */}
@@ -64,43 +99,84 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Signature Dishes */}
-      <section className="section signature-dishes">
+      {/* Introduction Section */}
+      <section className="intro-section section">
+        <div className="container intro-container">
+          <motion.div 
+            className="intro-text glass-panel"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8 }}
+            style={{ padding: '40px', borderRadius: '16px' }}
+          >
+            <h2 className="gold-text">Welcome to Mathuram Cafe</h2>
+            <p>
+              Experience the authentic taste of South India right here in Brahmavara. 
+              Our recipes have been passed down through generations, ensuring every dish 
+              is a celebration of traditional flavors and spices.
+            </p>
+            <p>
+              From crispy dosas to our signature degree filter coffee, we bring the 
+              rich culinary heritage of Udupi to your table.
+            </p>
+          </motion.div>
+          <motion.div 
+            className="intro-image"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8 }}
+          >
+            <img src="/assets/Photos/Resturant/Interior Ac 2.webp" alt="Mathuram Cafe Interior" loading="lazy" style={{ borderRadius: '16px', border: '1px solid rgba(229, 169, 61, 0.3)' }} />
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dishes */}
+      <section className="featured-section section">
         <div className="container">
-          <h2 className="section-title">Signature Dishes</h2>
+          <motion.h2 
+            className="section-title gold-text"
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Signature Dishes
+          </motion.h2>
           <div className="dishes-grid">
-            <div className="dish-card">
-              <img src="/assets/Photos/Food/Ghee Pudi idli.webp" alt="Ghee Podi Idli" loading="lazy" />
-              <div className="dish-info">
-                <h3>Ghee Podi Thatte Idli</h3>
-                <p>Soft idlis soaked in ghee and special podi masala.</p>
-              </div>
-            </div>
-            <div className="dish-card">
-              <img src="/assets/Photos/Food/Masala dosa.webp" alt="Masala Dosa" loading="lazy" />
-              <div className="dish-info">
-                <h3>Ghee Podi Dosa</h3>
-                <p>Crispy dosa roasted in ghee with our signature podi.</p>
-              </div>
-            </div>
-            <div className="dish-card">
-              <img src="/assets/Photos/Food/south India Meals.webp" alt="South Indian Meals" loading="lazy" />
-              <div className="dish-info">
-                <h3>South Indian Meals</h3>
-                <p>A wholesome traditional banana leaf meal experience.</p>
-              </div>
-            </div>
-            <div className="dish-card">
-              <img src="/assets/Photos/Food/Filter Cofee.webp" alt="Filter Coffee" loading="lazy" />
-              <div className="dish-info">
-                <h3>Filter Coffee</h3>
-                <p>Authentic Kumbakonam degree filter coffee.</p>
-              </div>
-            </div>
+            {[
+              { img: "Ghee Pudi idli.webp", name: "Ghee Podi Thatte Idli", desc: "Soft idlis soaked in ghee and special podi masala." },
+              { img: "Masala dosa.webp", name: "Ghee Podi Dosa", desc: "Crispy dosa roasted in ghee with our signature podi." },
+              { img: "south India Meals.webp", name: "South Indian Meals", desc: "A wholesome traditional banana leaf meal experience." },
+              { img: "Filter Cofee.webp", name: "Filter Coffee", desc: "Authentic Kumbakonam degree filter coffee." }
+            ].map((dish, idx) => (
+              <motion.div 
+                className="dish-card glass-panel" 
+                key={idx}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.15, duration: 0.6 }}
+              >
+                <img src={`/assets/Photos/Food/${dish.img}`} alt={dish.name} loading="lazy" />
+                <div className="dish-info">
+                  <h3 className="gold-text">{dish.name}</h3>
+                  <p>{dish.desc}</p>
+                </div>
+              </motion.div>
+            ))}
           </div>
-          <div className="text-center" style={{ textAlign: 'center', marginTop: '40px' }}>
-            <Link to="/menu" className="btn btn-primary">Explore Full Menu</Link>
-          </div>
+          
+          <motion.div 
+            className="view-all-container"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            style={{ textAlign: 'center', marginTop: '40px' }}
+          >
+            <Link to="/menu" className="btn btn-secondary">Explore Full Menu</Link>
+          </motion.div>
         </div>
       </section>
 
