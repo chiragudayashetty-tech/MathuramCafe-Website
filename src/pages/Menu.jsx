@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Tilt from 'react-parallax-tilt';
 import { Search } from 'lucide-react';
 import menuData from '../data/menu.json';
 import './Menu.css';
@@ -137,27 +136,19 @@ const Menu = () => {
                   >
                     {cat.items.map((item, itemIdx) => (
                       <motion.div key={itemIdx} variants={itemVariants}>
-                        <Tilt 
-                          tiltMaxAngleX={10} 
-                          tiltMaxAngleY={10} 
-                          scale={1.02} 
-                          transitionSpeed={2500} 
-                          className="tilt-wrapper"
-                        >
-                          <div className="menu-item-card glass-panel">
-                            <div className="item-details">
-                              <div className="item-header">
-                                <h3 className="item-name">{item.name}</h3>
-                                <div className="item-price gold-text">₹{item.price}</div>
-                              </div>
-                              <div className="item-badges">
-                                {item.bestseller && <span className="badge bestseller">Bestseller</span>}
-                                {item.chefRecommended && <span className="badge chef-rec">Chef's Pick</span>}
-                                {item.signatureDish && <span className="badge signature">Signature</span>}
-                              </div>
+                        <div className="menu-item-card glass-panel">
+                          <div className="item-details">
+                            <div className="item-header">
+                              <h3 className="item-name">{item.name}</h3>
+                              <div className="item-price gold-text">₹{item.price}</div>
+                            </div>
+                            <div className="item-badges">
+                              {item.bestseller && <span className="badge bestseller">Bestseller</span>}
+                              {item.chefRecommended && <span className="badge chef-rec">Chef's Pick</span>}
+                              {item.signatureDish && <span className="badge signature">Signature</span>}
                             </div>
                           </div>
-                        </Tilt>
+                        </div>
                       </motion.div>
                     ))}
                   </motion.div>

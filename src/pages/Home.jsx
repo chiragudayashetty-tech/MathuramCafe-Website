@@ -104,10 +104,10 @@ const Home = () => {
         <div className="container intro-container">
           <motion.div 
             className="intro-text glass-panel"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6 }}
             style={{ padding: '40px', borderRadius: '16px' }}
           >
             <h2 className="gold-text">Welcome to Mathuram Cafe</h2>
@@ -123,12 +123,12 @@ const Home = () => {
           </motion.div>
           <motion.div 
             className="intro-image"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6 }}
           >
-            <img src="/assets/Photos/Resturant/Interior Ac 2.webp" alt="Mathuram Cafe Interior" loading="lazy" style={{ borderRadius: '16px', border: '1px solid rgba(229, 169, 61, 0.3)' }} />
+            <img src="/assets/Photos/Resturant/Interior Ac 2.webp" alt="Mathuram Cafe Interior" loading="lazy" style={{ borderRadius: '16px', border: '1px solid var(--color-border)' }} />
           </motion.div>
         </div>
       </section>
@@ -154,10 +154,10 @@ const Home = () => {
               <motion.div 
                 className="dish-card glass-panel" 
                 key={idx}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.15, duration: 0.6 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.4 }}
               >
                 <img src={`/assets/Photos/Food/${dish.img}`} alt={dish.name} loading="lazy" />
                 <div className="dish-info">

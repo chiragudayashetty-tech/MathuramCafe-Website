@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Tilt from 'react-parallax-tilt';
 import { FaTimes } from 'react-icons/fa';
 import galleryData from '../data/gallery.json';
 import './Gallery.css';
@@ -66,17 +65,15 @@ const Gallery = () => {
                 transition={{ duration: 0.4 }}
                 className="masonry-item-wrapper"
               >
-                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} scale={1.02} transitionSpeed={2000}>
-                  <div 
-                    className="masonry-item"
-                    onClick={() => openLightbox(img.src)}
-                  >
-                    <img src={img.src} alt={img.alt} loading="lazy" />
-                    <div className="item-overlay">
-                      <span className="glass-panel">View</span>
-                    </div>
+                <div 
+                  className="masonry-item"
+                  onClick={() => openLightbox(img.src)}
+                >
+                  <img src={img.src} alt={img.alt} loading="lazy" />
+                  <div className="item-overlay">
+                    <span className="glass-panel">View</span>
                   </div>
-                </Tilt>
+                </div>
               </motion.div>
             ))}
           </AnimatePresence>

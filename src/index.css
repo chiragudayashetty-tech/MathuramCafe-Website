@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
-  --color-primary: #1A120B; /* Deep Charcoal/Brown */
-  --color-secondary: #E5A93D; /* Temple Gold */
-  --color-background: #120D08; /* Very Dark Brown */
-  --color-accent: #3E2723; /* Dark Wood */
-  --color-text: #F8F3EC; /* Off white */
-  --color-text-light: #B8A89A;
+  --color-primary: #3D1F17;
+  --color-secondary: #D4A65A;
+  --color-background: #F8F3EC;
+  --color-accent: #4E6B3A;
+  --color-text: #2c1b14;
+  --color-text-light: #6a5348;
   --color-white: #ffffff;
-  --color-border: rgba(229, 169, 61, 0.2); /* Soft Gold border */
+  --color-border: #e6dac6;
   
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Inter', sans-serif;
@@ -32,8 +32,7 @@
 
 body {
   font-family: var(--font-sans);
-  background: radial-gradient(circle at 50% 0%, #1e150f 0%, #120D08 100%);
-  background-attachment: fixed;
+  background-color: var(--color-background);
   color: var(--color-text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -41,27 +40,22 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: 600;
   line-height: 1.2;
 }
 
-/* Premium Gold Text Gradient */
+/* Reverting Gold Text to normal primary color */
 .gold-text {
-  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  display: inline-block;
+  color: var(--color-primary);
 }
 
-/* Glassmorphism utility */
+/* Glassmorphism utility reverted to clean white card */
 .glass-panel {
-  background: rgba(26, 18, 11, 0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(229, 169, 61, 0.15);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--radius-md);
 }
 
 a {
@@ -120,47 +114,41 @@ button {
   justify-content: center;
   padding: 12px 28px;
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
   transition: var(--transition);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+  letter-spacing: 1px;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #BF953F, #AA771C);
-  color: #1A120B;
-  border: none;
-  box-shadow: 0 4px 15px rgba(191, 149, 63, 0.3);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #FCF6BA, #BF953F);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(191, 149, 63, 0.5);
-  color: #000;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: var(--color-secondary);
-  border: 1px solid var(--color-secondary);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 
 .btn-secondary:hover {
-  background-color: rgba(229, 169, 61, 0.1);
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .btn-accent {
   background-color: var(--color-accent);
-  color: var(--color-text);
+  color: var(--color-white);
 }
 
 .btn-accent:hover {
-  background-color: #4a312d;
+  opacity: 0.9;
 }
 
 /* Mobile Responsiveness */
