@@ -20,7 +20,6 @@
   transform: translateX(-50%) translateY(-50%);
   object-fit: cover;
   z-index: 1;
-  filter: blur(1.5px) contrast(1.05); /* Softens low res pixelation */
 }
 
 .hero-overlay {
@@ -63,8 +62,10 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+  align-items: center;
   animation: fadeInUp 1s ease 0.6s forwards;
   opacity: 0;
+  padding-bottom: 30px; /* Prevent overlap with anything below */
 }
 
 /* Quick Info Section */
@@ -207,6 +208,12 @@
   }
   .hero-buttons {
     flex-direction: column;
+    gap: 15px; /* Reduce gap to avoid overlapping screen edges */
+    padding-bottom: 20px;
+  }
+  .hero-buttons .btn {
+    width: 100%; /* Make buttons take full width so they stack cleanly */
+    max-width: 250px;
   }
   .hero-logo {
     max-width: 280px;

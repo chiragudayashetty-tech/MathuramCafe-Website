@@ -8,11 +8,14 @@ import { FaLeaf, FaMotorcycle, FaCar, FaSnowflake } from 'react-icons/fa';
 import './Home.css';
 
 const VIDEOS = [
-  '/assets/Videos/Resturant opening video.MP4',
-  '/assets/Videos/Ghee Pudi Dosa Making.MP4',
-  '/assets/Videos/Ghee Podi Idli .MP4',
-  '/assets/Videos/Mens Bajji Making.MP4',
-  '/assets/Videos/Onion dosa Making.MP4'
+  '/assets/Videos/Opening Video.mp4',
+  '/assets/Videos/Ghee pudi dosa.mp4',
+  '/assets/Videos/Ghee pudi idli.mp4',
+  '/assets/Videos/Ghee pudi idli 2.mp4',
+  '/assets/Videos/Mens Bajji.mp4',
+  '/assets/Videos/Onion dosa.mp4',
+  '/assets/Videos/Royal Falooda.mp4',
+  '/assets/Videos/Thali.mp4'
 ];
 
 const Home = () => {
