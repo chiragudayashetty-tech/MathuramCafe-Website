@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Ullas Amin",
+    "rating": 5,
+    "reviewDate": "17 weeks ago",
+    "title": "Best filter coffee and ghee pudi thatte idli",
+    "review": "Best filter coffee I have ever tasted in Udupi and Kundapura Taluk, ghee pudi thatte idli is yummy and full marks for the ambience, taste and hygiene.",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "reviewCount": 16,
+    "featured": true
+  },
+  {
+    "name": "Navya Kunder",
+    "rating": 5,
+    "reviewDate": "17 weeks ago",
+    "review": "Highly recommended. The food was absolutely delicious with great taste and quality. The ambience is great and the place feels very comfortable. They also have spacious and convenient parking, which makes visiting very easy. Overall, a great place to enjoy good food with family and friends.",
+    "diningType": "Breakfast",
+    "priceRange": "₹200–400",
+    "reviewCount": 2,
+    "featured": true
+  },
+  {
+    "name": "Saswat Satapathy",
+    "rating": 5,
+    "reviewDate": "17 weeks ago",
+    "review": "Superb food. Great place. AC and non-AC sitting available. Large variety of food (all vegetarian). Plenty of parking outside. Little hot in non-AC area and very busy and crowded place.",
+    "reviewCount": 358,
+    "featured": true
+  },
+  {
+    "name": "Harsha Shetty",
+    "rating": 5,
+    "reviewDate": "2 months ago",
+    "review": "Stopped by for a drive-thru meal and had a wonderful experience. The food was delicious, fresh and of excellent quality. The service was quick, polite and very well-organized. The ambience, hygiene and parking, everything was top-notch. Highly recommended!",
+    "reviewCount": 17,
+    "featured": true
+  },
+  {
+    "name": "Adarsha Shetty",
+    "rating": 5,
+    "reviewDate": "2 months ago",
+    "review": "Had a great experience at Mathuram Cafe. Fresh and delicious food with good service. Perfect place to spend quality time with family and friends.",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "reviewCount": 8,
+    "featured": true
+  },
+  {
+    "name": "Rajathraj Rao",
+    "rating": 5,
+    "reviewDate": "6 days ago",
+    "review": "Tried the newly opened Mathuram Cafe and had a great experience. The chaat items were especially tasty and definitely worth trying. The place has ample parking, which makes it very convenient. The ambience is clean and elegant, with both AC and non-AC seating options available. The staff were friendly and welcoming. Overall, a nice spot to visit for good food and a comfortable dining experience.",
+    "reviewCount": 44,
+    "featured": true
+  },
+  {
+    "name": "Nithin Kurady",
+    "rating": 5,
+    "reviewDate": "1 month ago",
+    "review": "Was visiting Brahmavara recently and went there on their opening. Food was amazing and the hospitality was outstanding. They have introduced the ghee pudi idly from Bangalore and it is good. Do try.",
+    "reviewCount": 3,
+    "featured": true
+  }
+]

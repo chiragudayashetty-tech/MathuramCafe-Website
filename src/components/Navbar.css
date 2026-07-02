@@ -1,0 +1,109 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 20px 0;
+  transition: var(--transition);
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-sm);
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.navbar-logo img {
+  height: 60px;
+  transition: var(--transition);
+}
+
+.navbar.scrolled .navbar-logo img {
+  height: 50px;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-menu a {
+  color: var(--color-primary);
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition);
+  position: relative;
+}
+
+.nav-menu a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--color-secondary);
+  bottom: -4px;
+  left: 0;
+  transition: var(--transition);
+}
+
+.nav-menu a:hover::after,
+.nav-menu a.active-link::after {
+  width: 100%;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background-color: var(--color-background);
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    transition: 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-menu.active {
+    right: 0;
+  }
+  
+  .nav-menu ul {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: var(--color-white);
+    padding: 10px 0;
+    box-shadow: var(--shadow-sm);
+  }
+}

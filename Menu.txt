@@ -1,0 +1,1194 @@
+{
+  "restaurant": {
+    "name": "Mathuram Cafe",
+    "pureVeg": true,
+    "timings": {
+      "daily": "07:00 AM - 11:00 PM"
+    }
+  },
+  "menu": [
+    {
+      "category": "Dosa",
+      "items": [
+        {
+          "name": "Masala Dosa",
+          "price": 90,
+          "highlyOrdered": true,
+          "chefRecommended": true,
+          "signatureDish": true,
+          "highlightForFirstVisit": true
+        },
+        {
+          "name": "Benne Masala Dosa",
+          "price": 130
+        },
+        {
+          "name": "Ghee Pudi Masala Dosa",
+          "price": 120,
+          "bestseller": true,
+          "highlyOrdered": true,
+          "chefRecommended": true,
+          "signatureDish": true,
+          "highlightForFirstVisit": true
+        },
+        {
+          "name": "Open Butter Masala Dosa",
+          "price": 125
+        },
+        {
+          "name": "Butter Onion Dosa",
+          "price": 90
+        },
+        {
+          "name": "Butter Plain Dosa",
+          "price": 90
+        },
+        {
+          "name": "Ghee Onion Dosa",
+          "price": 115
+        },
+        {
+          "name": "Ghee Plain Dosa",
+          "price": 90
+        },
+        {
+          "name": "Ghee Pudi Plain Dosa",
+          "price": 110
+        },
+        {
+          "name": "Ghee Masala Dosa",
+          "price": 120
+        },
+        {
+          "name": "Ghee Sagu Dosa",
+          "price": 120
+        },
+        {
+          "name": "Ghee Khali Dosa (2)",
+          "price": 100
+        },
+        {
+          "name": "Ghee Set Dosa (3)",
+          "price": 115
+        },
+        {
+          "name": "Ghee Garlic Roast Dosa",
+          "price": 120
+        },
+        {
+          "name": "Ghee Ragi Dosa (2)",
+          "price": 90
+        }
+      ]
+    },
+    {
+      "category": "Idli & Vada",
+      "items": [
+        {
+          "name": "Ghee Pudi Thatte Idli",
+          "price": 65
+        },
+        {
+          "name": "Idli Vada",
+          "price": 65,
+          "bestseller": true,
+          "highlyOrdered": true
+        },
+        {
+          "name": "Ghee / Butter Thatte Idli",
+          "price": 40
+        },
+        {
+          "name": "Ghee / Butter Ragi Thatte Idli",
+          "price": 70
+        },
+        {
+          "name": "Thatte Idli",
+          "price": 40,
+          "bestseller": true,
+          "highlyOrdered": true,
+          "chefRecommended": true,
+          "signatureDish": true,
+          "highlightForFirstVisit": true
+        },
+        {
+          "name": "Vada Sambar Dip",
+          "price": 40
+        },
+        {
+          "name": "Idli Sambar",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "category": "Hot Beverages",
+      "items": [
+        {
+          "name": "Tea",
+          "price": 35
+        },
+        {
+          "name": "Filter Coffee",
+          "price": 35,
+          "bestseller": true,
+          "highlyOrdered": true,
+          "chefRecommended": true,
+          "signatureDish": true,
+          "highlightForFirstVisit": true
+        },
+        {
+          "name": "Masala Tea / Ginger Tea",
+          "price": 45
+        },
+        {
+          "name": "Lemon Tea",
+          "price": 35
+        },
+        {
+          "name": "Jaggery Coffee",
+          "price": 40
+        },
+        {
+          "name": "Badam Milk",
+          "price": 35
+        },
+        {
+          "name": "Horlicks",
+          "price": 50
+        },
+        {
+          "name": "Boost",
+          "price": 50
+        },
+        {
+          "name": "Kashaya",
+          "price": 40
+        },
+        {
+          "name": "Black Tea",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "category": "Tiffins",
+      "items": [
+        {
+          "name": "Ghee Ven Pongal",
+          "price": 75,
+          "highlyOrdered": true
+        },
+        {
+          "name": "Poori Sagu (3)",
+          "price": 100,
+          "bestseller": true,
+          "highlyOrdered": true,
+          "chefRecommended": true,
+          "highlightForFirstVisit": true
+        },
+        {
+          "name": "Kharabath",
+          "price": 60
+        },
+        {
+          "name": "Kesaribath",
+          "price": 60
+        },
+        {
+          "name": "Dahi Vada",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "category": "Meals",
+      "items": [
+        {
+          "name": "South Indian Meals",
+          "price": 135,
+          "bestseller": true,
+          "highlyOrdered": true,
+          "chefRecommended": true,
+          "signatureDish": true,
+          "highlightForFirstVisit": true
+        },
+        {
+          "name": "North Indian Meals",
+          "price": 145
+        },
+        {
+          "name": "Extra Meals Rice",
+          "price": 35
+        },
+        {
+          "name": "Dum Rice Special",
+          "price": 95
+        },
+        {
+          "name": "Puliyogare",
+          "price": 70
+        },
+        {
+          "name": "Curd Rice",
+          "price": 100
+        }
+      ]
+    }
+  ]
+}
+{
+  "category": "Evening Snacks",
+  "items": [
+    {
+      "name": "Banana Bajji (4)",
+      "price": 50
+    },
+    {
+      "name": "Bonda Soup",
+      "price": 60
+    },
+    {
+      "name": "Onion Pakoda",
+      "price": 60
+    },
+    {
+      "name": "Golibajje",
+      "price": 60
+    }
+  ]
+},
+{
+  "category": "Soups",
+  "items": [
+    {
+      "name": "Cream Of Tomato Soup",
+      "price": 90
+    },
+    {
+      "name": "Sweet Corn Soup",
+      "price": 100
+    },
+    {
+      "name": "Sweet Corn Veg Soup",
+      "price": 110
+    },
+    {
+      "name": "Veg Clear Soup",
+      "price": 100
+    },
+    {
+      "name": "Veg Manchow Soup",
+      "price": 100
+    },
+    {
+      "name": "Cream Of Mushroom Soup",
+      "price": 100
+    },
+    {
+      "name": "Hot & Sour Soup",
+      "price": 115
+    },
+    {
+      "name": "Veg Noodles Soup",
+      "price": 115
+    },
+    {
+      "name": "Lemon Coriander Soup",
+      "price": 115
+    },
+    {
+      "name": "Spinach Soup",
+      "price": 115
+    },
+    {
+      "name": "Mushroom Soup",
+      "price": 120
+    }
+  ]
+},
+{
+  "category": "Starters",
+  "items": [
+    {
+      "name": "Finger Chips",
+      "price": 120
+    },
+    {
+      "name": "Gobi Manchurian",
+      "price": 130
+    },
+    {
+      "name": "Gobi 65",
+      "price": 150
+    },
+    {
+      "name": "Gobi Chilly",
+      "price": 150
+    },
+    {
+      "name": "Gobi Pepper Dry",
+      "price": 160
+    },
+    {
+      "name": "Baby Corn Manchurian",
+      "price": 160
+    },
+    {
+      "name": "Baby Corn Chilly",
+      "price": 190
+    },
+    {
+      "name": "Baby Corn 65",
+      "price": 190
+    },
+    {
+      "name": "Baby Corn Pepper Dry",
+      "price": 200
+    },
+    {
+      "name": "Baby Corn Schezwan",
+      "price": 200
+    },
+    {
+      "name": "Paneer Manchurian",
+      "price": 220
+    },
+    {
+      "name": "Paneer 65",
+      "price": 220
+    },
+    {
+      "name": "Paneer Chilly",
+      "price": 220
+    },
+    {
+      "name": "Paneer Pepper Dry",
+      "price": 220
+    },
+    {
+      "name": "Paneer Schezwan",
+      "price": 220
+    },
+    {
+      "name": "Paneer Ghee Roast",
+      "price": 210
+    },
+    {
+      "name": "Mushroom Manchurian",
+      "price": 190
+    },
+    {
+      "name": "Mushroom 65",
+      "price": 200
+    },
+    {
+      "name": "Mushroom Chilly",
+      "price": 200
+    },
+    {
+      "name": "Mushroom Pepper Dry",
+      "price": 200,
+      "bestseller": true,
+      "highlyOrdered": true,
+      "chefRecommended": true,
+      "signatureDish": true,
+      "highlightForFirstVisit": true
+    },
+    {
+      "name": "Mushroom Schezwan",
+      "price": 230
+    },
+    {
+      "name": "Mushroom Ghee Roast",
+      "price": 200
+    },
+    {
+      "name": "Veg Ball Manchurian",
+      "price": 200
+    },
+    {
+      "name": "Veg Ball Chilly",
+      "price": 200
+    },
+    {
+      "name": "Veg Ball 65",
+      "price": 200
+    },
+    {
+      "name": "Plain Papad",
+      "price": 35
+    },
+    {
+      "name": "Masala Papad",
+      "price": 60
+    },
+    {
+      "name": "Mathuram Special Starter",
+      "price": 260,
+      "bestseller": true,
+      "chefRecommended": true
+    }
+  ]
+},
+{
+  "category": "Tandoori Starters",
+  "items": [
+    {
+      "name": "Paneer Tikka",
+      "price": 220,
+      "bestseller": true,
+      "highlyOrdered": true,
+      "chefRecommended": true,
+      "signatureDish": true,
+      "highlightForFirstVisit": true
+    },
+    {
+      "name": "Paneer Achari Tikka",
+      "price": 240
+    },
+    {
+      "name": "Paneer Hariyali Tikka",
+      "price": 240
+    },
+    {
+      "name": "Mushroom Tikka",
+      "price": 225
+    },
+    {
+      "name": "Veg Platter",
+      "price": 510
+    },
+    {
+      "name": "Paneer Malai Tikka",
+      "price": 250
+    },
+    {
+      "name": "Mushroom Achari Tikka",
+      "price": 240
+    },
+    {
+      "name": "Mushroom Hariyali Tikka",
+      "price": 240
+    },
+    {
+      "name": "Harabara Kabab",
+      "price": 240
+    },
+    {
+      "name": "Paneer Chandini Tikka",
+      "price": 290
+    },
+    {
+      "name": "Veg Seekh Kabab",
+      "price": 210
+    },
+    {
+      "name": "Mathuram Special",
+      "price": 260
+    }
+  ]
+}
+{
+  "category": "Indian Gravies",
+  "items": [
+    {
+      "name": "Channa Masala",
+      "price": 170
+    },
+    {
+      "name": "Dal Fry",
+      "price": 150
+    },
+    {
+      "name": "Dal Tadka",
+      "price": 170
+    },
+    {
+      "name": "Green Peas Masala",
+      "price": 170
+    },
+    {
+      "name": "Plain Palak",
+      "price": 170
+    },
+    {
+      "name": "Peas Palak",
+      "price": 195
+    },
+    {
+      "name": "Aloo Gobi",
+      "price": 190
+    },
+    {
+      "name": "Aloo Jeera Dry",
+      "price": 160
+    },
+    {
+      "name": "Aloo Palak",
+      "price": 180
+    },
+    {
+      "name": "Aloo Channa",
+      "price": 180
+    },
+    {
+      "name": "Stuffed Aloo",
+      "price": 210
+    },
+    {
+      "name": "Aloo Mutter",
+      "price": 180
+    },
+    {
+      "name": "Mix Veg Curry",
+      "price": 190
+    },
+    {
+      "name": "Veg Kadai",
+      "price": 230
+    },
+    {
+      "name": "Veg Malai Kofta",
+      "price": 230
+    },
+    {
+      "name": "Veg Kolhapuri",
+      "price": 220
+    },
+    {
+      "name": "Veg Hyderabadi",
+      "price": 230
+    },
+    {
+      "name": "Veg Pepper Masala",
+      "price": 230
+    },
+    {
+      "name": "Veg Kofta",
+      "price": 230
+    },
+    {
+      "name": "Veg Shahi Kurma",
+      "price": 290
+    },
+    {
+      "name": "Veg Malvani",
+      "price": 260
+    },
+    {
+      "name": "Kaju Masala",
+      "price": 260
+    },
+    {
+      "name": "Kaju Mutter",
+      "price": 210
+    },
+    {
+      "name": "Matka Mix Veg Masala",
+      "price": 230
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "price": 230,
+      "bestseller": true,
+      "highlyOrdered": true
+    },
+    {
+      "name": "Kadai Paneer",
+      "price": 200
+    },
+    {
+      "name": "Mutter Paneer",
+      "price": 250
+    },
+    {
+      "name": "Palak Paneer",
+      "price": 230
+    },
+    {
+      "name": "Paneer Burji",
+      "price": 210
+    },
+    {
+      "name": "Shahi Paneer",
+      "price": 240
+    },
+    {
+      "name": "Paneer Tikka Masala",
+      "price": 240
+    },
+    {
+      "name": "Paneer Kurma",
+      "price": 240
+    },
+    {
+      "name": "Mushroom Masala",
+      "price": 240
+    },
+    {
+      "name": "Kadai Mushroom",
+      "price": 240
+    },
+    {
+      "name": "Mushroom Mutter",
+      "price": 265
+    },
+    {
+      "name": "Gobi Masala",
+      "price": 300
+    },
+    {
+      "name": "Methi Hariyali",
+      "price": 280
+    },
+    {
+      "name": "Baby Corn Green Masala",
+      "price": 250
+    },
+    {
+      "name": "Capsicum Masala",
+      "price": 250
+    }
+  ]
+},
+{
+  "category": "Indian Breads",
+  "items": [
+    {
+      "name": "Roti",
+      "price": 40
+    },
+    {
+      "name": "Butter Roti",
+      "price": 55
+    },
+    {
+      "name": "Methi Roti",
+      "price": 50
+    },
+    {
+      "name": "Pudina Roti",
+      "price": 50
+    },
+    {
+      "name": "Naan",
+      "price": 55
+    },
+    {
+      "name": "Butter Naan",
+      "price": 65,
+      "bestseller": true,
+      "highlyOrdered": true
+    },
+    {
+      "name": "Stuffed Naan",
+      "price": 100
+    },
+    {
+      "name": "Mughalai Naan",
+      "price": 100
+    },
+    {
+      "name": "Onion Parotta",
+      "price": 100
+    },
+    {
+      "name": "Mix Parotta",
+      "price": 110
+    },
+    {
+      "name": "Gobi Parotta",
+      "price": 100
+    },
+    {
+      "name": "Chapati (2)",
+      "price": 60
+    },
+    {
+      "name": "Garlic Naan",
+      "price": 100
+    },
+    {
+      "name": "Kulcha",
+      "price": 50
+    },
+    {
+      "name": "Butter Kulcha",
+      "price": 65
+    },
+    {
+      "name": "Stuffed Kulcha",
+      "price": 100
+    },
+    {
+      "name": "Pudina Paratha",
+      "price": 80
+    },
+    {
+      "name": "Aloo Paratha",
+      "price": 90
+    },
+    {
+      "name": "Cheese Naan with Garlic",
+      "price": 120
+    }
+  ]
+},
+{
+  "category": "North Indian Rice",
+  "items": [
+    {
+      "name": "Veg Biriyani",
+      "price": 190
+    },
+    {
+      "name": "Kashmiri Biriyani",
+      "price": 240
+    },
+    {
+      "name": "Mushroom Biriyani",
+      "price": 230
+    },
+    {
+      "name": "Paneer Biriyani",
+      "price": 240
+    },
+    {
+      "name": "Handi Biriyani",
+      "price": 240
+    },
+    {
+      "name": "Mughalai Biriyani",
+      "price": 240
+    },
+    {
+      "name": "Veg Hyderabadi Biriyani",
+      "price": 240
+    },
+    {
+      "name": "Veg Pulao",
+      "price": 180
+    },
+    {
+      "name": "Peas Pulao",
+      "price": 200
+    },
+    {
+      "name": "Shahjani Pulao",
+      "price": 240
+    },
+    {
+      "name": "Dal Khichdi",
+      "price": 170
+    },
+    {
+      "name": "Palak Khichdi",
+      "price": 180
+    },
+    {
+      "name": "Kashmiri Pulav",
+      "price": 230
+    }
+  ]
+}
+{
+  "category": "Chinese Fried Rice",
+  "items": [
+    {
+      "name": "Veg Fried Rice",
+      "price": 160,
+      "signatureDish": true,
+      "highlightForFirstVisit": true
+    },
+    {
+      "name": "Gobi Fried Rice",
+      "price": 180
+    },
+    {
+      "name": "Veg Schezwan Fried Rice",
+      "price": 200
+    },
+    {
+      "name": "Paneer Fried Rice",
+      "price": 200
+    },
+    {
+      "name": "Baby Corn Fried Rice",
+      "price": 180
+    },
+    {
+      "name": "Mushroom Fried Rice",
+      "price": 185
+    },
+    {
+      "name": "Ghee Rice",
+      "price": 190
+    },
+    {
+      "name": "Jeera Rice",
+      "price": 175
+    }
+  ]
+},
+{
+  "category": "Chinese Noodles",
+  "items": [
+    {
+      "name": "Veg Noodles",
+      "price": 180
+    },
+    {
+      "name": "Veg Schezwan Noodles",
+      "price": 190
+    },
+    {
+      "name": "Veg Hakka Noodles",
+      "price": 180,
+      "signatureDish": true,
+      "highlightForFirstVisit": true
+    },
+    {
+      "name": "Veg Hongkong Noodles",
+      "price": 200
+    },
+    {
+      "name": "Paneer Noodles",
+      "price": 200
+    },
+    {
+      "name": "Mushroom Noodles",
+      "price": 190
+    },
+    {
+      "name": "Manchow Noodles",
+      "price": 210
+    },
+    {
+      "name": "Gobi Noodles",
+      "price": 170
+    },
+    {
+      "name": "Veg Singapore Noodles",
+      "price": 210
+    }
+  ]
+},
+{
+  "category": "Chats",
+  "items": [
+    {
+      "name": "Masala Puri",
+      "price": 60
+    },
+    {
+      "name": "Pani Puri",
+      "price": 60
+    },
+    {
+      "name": "Bhel Puri",
+      "price": 70
+    },
+    {
+      "name": "Sev Puri",
+      "price": 80
+    },
+    {
+      "name": "Dahi Puri",
+      "price": 80
+    },
+    {
+      "name": "Aloo Puri",
+      "price": 65
+    },
+    {
+      "name": "Papadi Chat",
+      "price": 80
+    },
+    {
+      "name": "Sev Dahi Puri",
+      "price": 85
+    },
+    {
+      "name": "Special Sev Puri",
+      "price": 90
+    },
+    {
+      "name": "Special Bhel Puri",
+      "price": 90
+    }
+  ]
+},
+{
+  "category": "Ice Cream",
+  "items": [
+    {
+      "name": "Vanilla",
+      "price": 60
+    },
+    {
+      "name": "Strawberry",
+      "price": 60
+    },
+    {
+      "name": "Mango",
+      "price": 60
+    },
+    {
+      "name": "Chocolate",
+      "price": 60
+    },
+    {
+      "name": "Pista",
+      "price": 70
+    },
+    {
+      "name": "Butter Scotch",
+      "price": 70
+    },
+    {
+      "name": "Tutti Fruity",
+      "price": 90
+    },
+    {
+      "name": "Anjeer",
+      "price": 90
+    }
+  ]
+},
+{
+  "category": "Ice Cream Milkshakes",
+  "items": [
+    {
+      "name": "Vanilla Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Strawberry Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Chocolate Milk Shake",
+      "price": 120,
+      "signatureDish": true,
+      "highlightForFirstVisit": true
+    },
+    {
+      "name": "Pista Milk Shake",
+      "price": 130
+    },
+    {
+      "name": "Butter Scotch Milk Shake",
+      "price": 130
+    },
+    {
+      "name": "Mango Milk Shake",
+      "price": 130
+    },
+    {
+      "name": "Anjeer Milk Shake",
+      "price": 160
+    }
+  ]
+},
+{
+  "category": "Special Ice Cream & Falooda",
+  "items": [
+    {
+      "name": "Gud Bud",
+      "price": 160
+    },
+    {
+      "name": "Chocolate Sundae",
+      "price": 175
+    },
+    {
+      "name": "Vanilla Sundae",
+      "price": 175
+    },
+    {
+      "name": "Nut Sundae",
+      "price": 175
+    },
+    {
+      "name": "Double Sundae",
+      "price": 175
+    },
+    {
+      "name": "Triple Sundae",
+      "price": 200
+    },
+    {
+      "name": "Dry Fruit Special",
+      "price": 185
+    },
+    {
+      "name": "Banana Split",
+      "price": 175
+    }
+  ]
+},
+{
+  "category": "Fresh Juices",
+  "items": [
+    {
+      "name": "Lemon Juice",
+      "price": 50
+    },
+    {
+      "name": "Mint Lime",
+      "price": 65
+    },
+    {
+      "name": "Fresh Lime Soda (Sweet / Salt)",
+      "price": 65
+    },
+    {
+      "name": "Mosambi",
+      "price": 80
+    },
+    {
+      "name": "Watermelon",
+      "price": 80
+    },
+    {
+      "name": "Pineapple",
+      "price": 80
+    },
+    {
+      "name": "Musk Melon",
+      "price": 90
+    },
+    {
+      "name": "Apple",
+      "price": 110
+    },
+    {
+      "name": "Mango",
+      "price": 100
+    },
+    {
+      "name": "Orange",
+      "price": 90
+    },
+    {
+      "name": "Grape",
+      "price": 110
+    },
+    {
+      "name": "Pomegranate",
+      "price": 110
+    },
+    {
+      "name": "Mix Fruit Juice",
+      "price": 110
+    },
+    {
+      "name": "Papaya",
+      "price": 90
+    },
+    {
+      "name": "Mosambi Orange Solid",
+      "price": 110
+    },
+    {
+      "name": "Butter Milk",
+      "price": 45
+    },
+    {
+      "name": "Plain Soda",
+      "price": 35
+    }
+  ]
+},
+{
+  "category": "Milkshakes",
+  "items": [
+    {
+      "name": "Apple Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Chikku Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Strawberry Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Mango Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Banana Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Oreo Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Papaya Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Pomegranate Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Butter Fruit Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Musk Melon Milk Shake",
+      "price": 120
+    },
+    {
+      "name": "Cold Badam Milk",
+      "price": 90
+    },
+    {
+      "name": "Cold Coffee",
+      "price": 120
+    }
+  ]
+},
+{
+  "category": "Dry Fruit Milkshakes",
+  "items": [
+    {
+      "name": "Dry Fruit Milk Shake",
+      "price": 200
+    },
+    {
+      "name": "Dry Fruit Pista Milk Shake",
+      "price": 200
+    },
+    {
+      "name": "Dry Fruit Anjoora Milk Shake",
+      "price": 200
+    },
+    {
+      "name": "Dry Fruit Badam Milk Shake",
+      "price": 200
+    },
+    {
+      "name": "Dry Fruit Kaju Anjoora Milk Shake",
+      "price": 215
+    }
+  ]
+},
+{
+  "category": "Mineral Water",
+  "items": [
+    {
+      "name": "Mineral Water (500ml)",
+      "price": 15
+    },
+    {
+      "name": "Mineral Water (1L)",
+      "price": 25
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Mathuram Cafe",
+  "tagline": "Traditional South Indian Cuisine",
+  "phone": "+918792923092",
+  "address": "Laxmi Empire Building, Krishikendra, Brahmavara, Udupi",
+  "pureVeg": true,
+  "freeDeliveryAbove": 300,
+  "deliveryRadius": "3 km",
+  "driveThru": true,
+  "acDining": true,
+  "nonAcDining": true,
+  "instagram": "https://www.instagram.com/mathuram.cafe/?hl=en",
+  "facebook": "https://www.facebook.com/mathuramcafe/",
+  "zomato": "https://zomato.onelink.me/xqzv/24xwmi4t",
+  "whatsapp": "https://wa.me/918792923092"
+}
