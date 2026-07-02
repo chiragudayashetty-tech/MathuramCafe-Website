@@ -20,6 +20,7 @@
   transform: translateX(-50%) translateY(-50%);
   object-fit: cover;
   z-index: 1;
+  filter: blur(1.5px) contrast(1.05); /* Softens low res pixelation */
 }
 
 .hero-overlay {

@@ -87,6 +87,7 @@ const Menu = () => {
       <div className="menu-container container">
         {/* Sticky Mobile-First Horizontal Tabs */}
         <div className="menu-sidebar glass-panel">
+          <div className="scroll-hint">Swipe categories →</div>
           <ul className="category-tabs">
             {menuData.menu.map((cat, idx) => (
               <li 

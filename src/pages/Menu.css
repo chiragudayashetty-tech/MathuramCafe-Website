@@ -76,8 +76,30 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
   gap: 5px;
-  padding: 5px;
+  padding: 5px 20px 5px 5px; /* Extra right padding so last item is visible */
   scroll-snap-type: x mandatory;
+}
+
+.scroll-hint {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .scroll-hint {
+    display: block;
+    text-align: right;
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    padding-right: 15px;
+    margin-bottom: -5px;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { opacity: 0.5; transform: translateX(0); }
+    50% { opacity: 1; transform: translateX(3px); }
+    100% { opacity: 0.5; transform: translateX(0); }
+  }
 }
 
 .category-tabs::-webkit-scrollbar {
@@ -126,12 +148,12 @@
 .menu-items-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 15px;
+  gap: 10px; /* Reduced gap for compact view */
 }
 
 .menu-item-card {
   border-radius: 12px;
-  padding: 16px;
+  padding: 12px; /* Reduced padding */
   transition: transform 0.3s ease;
   height: 100%;
 }
