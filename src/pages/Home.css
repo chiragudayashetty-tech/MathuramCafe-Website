@@ -1,6 +1,7 @@
 /* Hero Section */
 .hero-section {
   height: 100vh;
+  height: 100svh; /* Accounts for mobile browser UI */
   min-height: 600px;
   position: relative;
   display: flex;
@@ -204,18 +205,20 @@
 
 @media (max-width: 768px) {
   .hero-tagline {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Smaller text */
+    margin-bottom: 20px; /* Less margin */
   }
   .hero-buttons {
     flex-direction: column;
-    gap: 15px; /* Reduce gap to avoid overlapping screen edges */
-    padding-bottom: 20px;
+    gap: 10px; /* Tighter gap */
+    padding-bottom: 10px;
   }
   .hero-buttons .btn {
-    width: 100%; /* Make buttons take full width so they stack cleanly */
+    width: 100%;
     max-width: 250px;
   }
   .hero-logo {
-    max-width: 280px;
+    max-width: 200px; /* Smaller central logo */
+    margin-bottom: 10px;
   }
 }
