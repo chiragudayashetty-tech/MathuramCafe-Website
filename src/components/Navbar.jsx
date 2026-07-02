@@ -19,11 +19,15 @@ const Navbar = () => {
   const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMenu = () => setIsMobileMenuOpen(false);
 
+  const isHomePage = location.pathname === '/';
+  const isTransparent = isHomePage && !isScrolled;
+  const logoSrc = isTransparent ? "/assets/Brand/logo/White logo.webp" : "/assets/Brand/logo/Black logo.webp";
+
   return (
-    <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+    <header className={`navbar ${isScrolled ? 'scrolled' : ''} ${isTransparent ? 'transparent-home' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img src="/assets/Brand/logo/Logo.webp" alt="Mathuram Cafe Logo" />
+          <img src={logoSrc} alt="Mathuram Cafe Logo" />
         </Link>
         
         <div className="menu-icon" onClick={toggleMenu}>

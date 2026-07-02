@@ -22,7 +22,7 @@ const Preloader = ({ onComplete }) => {
         animate={{ scale: [0.9, 1.05, 1], opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        <img src="/assets/Brand/logo/Logo.webp" alt="Mathuram Cafe Logo" className="pulse-logo" />
+        <img src="/assets/Brand/logo/Black logo.webp" alt="Mathuram Cafe Logo" className="pulse-logo" />
         <div className="loading-dots">
           <motion.span animate={{ opacity: [0, 1, 0] }} transition={{ repeat: Infinity, duration: 1.5, delay: 0 }}>.</motion.span>
           <motion.span animate={{ opacity: [0, 1, 0] }} transition={{ repeat: Infinity, duration: 1.5, delay: 0.3 }}>.</motion.span>

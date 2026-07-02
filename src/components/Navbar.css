@@ -5,7 +5,11 @@
   width: 100%;
   z-index: 1000;
   padding: 20px 0;
-  transition: var(--transition);
+  transition: all 0.3s ease;
+  background-color: var(--color-background); /* Default to background color */
+}
+
+.navbar.transparent-home {
   background-color: transparent;
 }
 
@@ -72,6 +76,19 @@
   font-size: 1.8rem;
   color: var(--color-primary);
   cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar.transparent-home .menu-icon {
+  color: var(--color-white);
+}
+
+.navbar.transparent-home .nav-menu a {
+  color: var(--color-white);
+}
+
+.navbar.transparent-home .nav-menu a::after {
+  background: var(--color-white);
 }
 
 @media (max-width: 768px) {
@@ -104,8 +121,15 @@
   }
   
   .navbar {
-    background-color: var(--color-white);
     padding: 10px 0;
-    box-shadow: var(--shadow-sm);
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+    transform: scale(1.2);
+  }
+  
+  .navbar.scrolled .navbar-logo img {
+    height: 45px;
   }
 }
