@@ -20,6 +20,7 @@ const VIDEOS = [
 
 const Home = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(() => Math.floor(Math.random() * VIDEOS.length));
+  const [autoplayFailed, setAutoplayFailed] = useState(false);
   const videoRef = useRef(null);
 
   const handleVideoEnded = () => {
@@ -28,11 +29,12 @@ const Home = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      // Intentionally not calling .load() as it interrupts iOS playback
+      // Attempt to play explicitly to catch any OS-level blocks (like Low Power Mode)
       const playPromise = videoRef.current.play();
       if (playPromise !== undefined) {
         playPromise.catch(e => {
-          console.log('Autoplay blocked by browser/OS:', e);
+          console.log('Autoplay blocked by browser/OS (Likely Low Power Mode):', e);
+          setAutoplayFailed(true); // Switch to fallback image
         });
       }
     }
@@ -44,18 +46,29 @@ const Home = () => {
     <div className="home-page">
       {/* Hero Section */}
       <section className="hero-section">
-        <motion.video 
-          ref={videoRef}
-          autoPlay 
-          muted 
-          playsInline
-          onEnded={handleVideoEnded}
-          className="hero-video"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
-          src={VIDEOS[currentVideoIndex]}
-        />
+        {autoplayFailed ? (
+          <motion.img 
+            src="/assets/Photos/Resturant/family-restaurant-mathuram-cafe-brahmavara.webp"
+            alt="Mathuram Cafe"
+            className="hero-video"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+          />
+        ) : (
+          <motion.video 
+            ref={videoRef}
+            autoPlay 
+            muted 
+            playsInline
+            onEnded={handleVideoEnded}
+            className="hero-video"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+            src={VIDEOS[currentVideoIndex]}
+          />
+        )}
         <div className="hero-overlay"></div>
         <motion.div 
           className="hero-content"
