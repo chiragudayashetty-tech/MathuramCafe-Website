@@ -19,13 +19,8 @@ const VIDEOS = [
 ];
 
 const Home = () => {
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(() => Math.floor(Math.random() * VIDEOS.length));
   const videoRef = useRef(null);
-
-  useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * VIDEOS.length);
-    setCurrentVideoIndex(randomIndex);
-  }, []);
 
   const handleVideoEnded = () => {
     setCurrentVideoIndex((prev) => (prev + 1) % VIDEOS.length);
