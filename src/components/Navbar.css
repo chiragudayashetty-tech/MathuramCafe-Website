@@ -84,6 +84,8 @@
   cursor: pointer;
   transition: color 0.3s;
   animation: menuPulse 2.5s infinite ease-in-out;
+  position: relative;
+  z-index: 1001; /* Ensure it stays on top of the slide-out menu */
 }
 
 .navbar.transparent-home .menu-icon {
