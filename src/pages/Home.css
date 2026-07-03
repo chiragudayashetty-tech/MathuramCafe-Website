@@ -31,6 +31,7 @@
   height: 100%;
   background: rgba(20, 10, 7, 0.6);
   z-index: 2;
+  pointer-events: none; /* Let taps pass through to the video if iOS shows a play button */
 }
 
 .hero-content {

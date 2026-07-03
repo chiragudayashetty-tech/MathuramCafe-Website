@@ -54,10 +54,8 @@ const Home = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
-          key={currentVideoIndex}
-        >
-          <source src={VIDEOS[currentVideoIndex]} type="video/mp4" />
-        </motion.video>
+          src={VIDEOS[currentVideoIndex]}
+        />
         <div className="hero-overlay"></div>
         <motion.div 
           className="hero-content"
