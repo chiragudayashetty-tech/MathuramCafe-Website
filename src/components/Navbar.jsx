@@ -31,7 +31,7 @@ const Navbar = () => {
           <img src={logoSrc} alt="Mathuram Cafe Logo" />
         </Link>
         
-        <div className="menu-icon" onClick={toggleMenu}>
+        <div className={`menu-icon ${!isMobileMenuOpen ? 'pulse-anim' : ''}`} onClick={toggleMenu}>
           {isMobileMenuOpen ? <FiX style={{ color: '#e63946', strokeWidth: 1.5, transform: 'scale(1.2)' }} /> : <FaBars />}
         </div>
 
