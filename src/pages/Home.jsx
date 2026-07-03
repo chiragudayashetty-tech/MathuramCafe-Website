@@ -64,7 +64,8 @@ const Home = () => {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <img src="/assets/Brand/logo/White logo.webp" alt="Mathuram Cafe" className="hero-logo" style={{ transform: 'scale(1.5)', marginBottom: '30px' }} />
-          <h1 className="hero-tagline gold-text">{websiteData.tagline}</h1>
+          <h1 className="hero-tagline gold-text" style={{ fontSize: '1px', opacity: 0, position: 'absolute' }}>Best Pure Veg Restaurant in Brahmavara, Udupi</h1>
+          <h2 className="hero-tagline gold-text">{websiteData.tagline}</h2>
           <div className="hero-buttons">
             <Link to="/menu" className="btn btn-primary">View Menu</Link>
             <a href={websiteData.zomato} target="_blank" rel="noopener noreferrer" className="btn btn-zomato">Order on Zomato</a>
@@ -111,15 +112,15 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             style={{ padding: '40px', borderRadius: '16px' }}
           >
-            <h2 className="gold-text">Welcome to Mathuram Cafe</h2>
+            <h2 className="gold-text">Vegetarian Restaurant in Udupi & Brahmavara</h2>
             <p>
-              Experience the authentic taste of South India right here in Brahmavara. 
+              Experience the authentic taste of South India right here at the <strong>best pure veg restaurant in Brahmavara</strong>. 
               Our recipes have been passed down through generations, ensuring every dish 
               is a celebration of traditional flavors and spices.
             </p>
             <p>
               From crispy dosas to our signature degree filter coffee, we bring the 
-              rich culinary heritage of Udupi to your table.
+              rich culinary heritage of Udupi to your table. If you're looking for the perfect <strong>South Indian breakfast</strong> or a relaxing <strong>family dining</strong> experience, Mathuram Cafe is your destination.
             </p>
           </motion.div>
           <motion.div 
@@ -129,7 +130,7 @@ const Home = () => {
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6 }}
           >
-            <img src="/assets/Photos/Resturant/Interior Ac 2.webp" alt="Mathuram Cafe Interior" loading="lazy" style={{ borderRadius: '16px', border: '1px solid var(--color-border)' }} />
+            <img src="/assets/Photos/Resturant/family-restaurant-mathuram-cafe-brahmavara.webp" alt="Mathuram Cafe Interior" loading="lazy" style={{ borderRadius: '16px', border: '1px solid var(--color-border)' }} />
           </motion.div>
         </div>
       </section>
@@ -147,10 +148,10 @@ const Home = () => {
           </motion.h2>
           <div className="dishes-grid">
             {[
-              { img: "Ghee Pudi idli.webp", name: "Ghee Podi Thatte Idli", desc: "Soft idlis soaked in ghee and special podi masala." },
-              { img: "Masala dosa.webp", name: "Ghee Podi Dosa", desc: "Crispy dosa roasted in ghee with our signature podi." },
-              { img: "south India Meals.webp", name: "South Indian Meals", desc: "A wholesome traditional banana leaf meal experience." },
-              { img: "Filter Cofee.webp", name: "Filter Coffee", desc: "Authentic Kumbakonam degree filter coffee." }
+              { img: "ghee-podi-idli-udupi.webp", name: "Ghee Podi Thatte Idli", desc: "Soft idlis soaked in ghee and special podi masala." },
+              { img: "best-masala-dosa-brahmavara.webp", name: "Ghee Podi Dosa", desc: "Crispy dosa roasted in ghee with our signature podi." },
+              { img: "south-indian-meals-brahmavara.webp", name: "South Indian Meals", desc: "A wholesome traditional banana leaf meal experience." },
+              { img: "filter-coffee-mathuram-cafe.webp", name: "Filter Coffee", desc: "Authentic Kumbakonam degree filter coffee." }
             ].map((dish, idx) => (
               <motion.div 
                 className="dish-card glass-panel" 
@@ -196,6 +197,31 @@ const Home = () => {
           </div>
           <div className="text-center" style={{ textAlign: 'center', marginTop: '40px' }}>
             <Link to="/reviews" className="btn btn-secondary">Read All Reviews</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="section faq-section">
+        <div className="container">
+          <h2 className="section-title">Frequently Asked Questions</h2>
+          <div className="faq-grid">
+            <div className="faq-card glass-panel">
+              <h3 className="gold-text">Is Mathuram Cafe a pure veg restaurant?</h3>
+              <p>Yes, we are a 100% pure vegetarian restaurant serving authentic South Indian cuisine.</p>
+            </div>
+            <div className="faq-card glass-panel">
+              <h3 className="gold-text">What are Mathuram Cafe's timings?</h3>
+              <p>We are open daily from 7:00 AM to 11:00 PM for breakfast, lunch, and dinner.</p>
+            </div>
+            <div className="faq-card glass-panel">
+              <h3 className="gold-text">Does Mathuram Cafe offer South Indian breakfast?</h3>
+              <p>Yes! We serve the best South Indian breakfast in Udupi, including Ghee Podi Idli, Masala Dosa, and Kumbakonam degree filter coffee.</p>
+            </div>
+            <div className="faq-card glass-panel">
+              <h3 className="gold-text">Is there parking available for family dining?</h3>
+              <p>Yes, we have ample parking space and both AC and Non-AC seating, making us a great family restaurant in Brahmavara.</p>
+            </div>
           </div>
         </div>
       </section>

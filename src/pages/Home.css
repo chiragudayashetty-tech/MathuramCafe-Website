@@ -206,6 +206,30 @@
   color: var(--color-primary);
 }
 
+/* FAQ Section */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-card {
+  padding: 24px;
+  text-align: left;
+}
+
+.faq-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.faq-card p {
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
 /* Animations */
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-30px); }

@@ -49,6 +49,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="footer-seo" style={{ borderTop: '1px solid var(--color-border)', marginTop: '20px', paddingTop: '20px', textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-light)' }}>
+        <div className="container">
+          <p>
+            Visit Mathuram Cafe - the <Link to="/">Pure Veg Restaurant in Brahmavara</Link> | <Link to="/menu">South Indian Restaurant in Udupi</Link> | <Link to="/about">Family Restaurant in Brahmavara</Link> | <Link to="/menu">Best Dosa in Udupi</Link>
+          </p>
+        </div>
+      </div>
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} {websiteData.name}. All rights reserved.</p>
       </div>
