@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
+import { FiX } from 'react-icons/fi';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -31,7 +32,7 @@ const Navbar = () => {
         </Link>
         
         <div className="menu-icon" onClick={toggleMenu}>
-          {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+          {isMobileMenuOpen ? <FiX style={{ color: '#e63946', strokeWidth: 1.5, transform: 'scale(1.2)' }} /> : <FaBars />}
         </div>
 
         <nav className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
