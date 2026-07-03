@@ -33,8 +33,13 @@ const Home = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.load();
-      videoRef.current.play().catch(e => console.log('Autoplay blocked:', e));
+      // Intentionally not calling .load() as it interrupts iOS playback
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(e => {
+          console.log('Autoplay blocked by browser/OS:', e);
+        });
+      }
     }
   }, [currentVideoIndex]);
   
