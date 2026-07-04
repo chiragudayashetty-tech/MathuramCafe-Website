@@ -125,7 +125,7 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             style={{ padding: '40px', borderRadius: '16px' }}
           >
-            <h2 className="gold-text">Vegetarian Restaurant in Udupi & Brahmavara</h2>
+            <h2 className="gold-text">Vegetarian Restaurant in Brahmavara, Udupi District</h2>
             <p>
               Experience the authentic taste of South India right here at the <strong>best pure veg restaurant in Brahmavara</strong>. 
               Our recipes have been passed down through generations, ensuring every dish 
