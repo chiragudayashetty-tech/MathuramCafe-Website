@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Post3 = () => (
-  <div className="container" style={{ paddingTop: '120px', paddingBottom: '80px', maxWidth: '800px', minHeight: '80vh' }}>
+  <div className="container" style={{ paddingTop: '180px', paddingBottom: '80px', maxWidth: '800px', minHeight: '80vh' }}>
     <h1 className="gold-text" style={{ marginBottom: '30px', fontSize: '2.5rem' }}>Looking for the Best Family Restaurant Near Manipal and Udupi?</h1>
     
     <div className="glass-panel" style={{ padding: '40px', lineHeight: '1.8' }}>

@@ -22,7 +22,7 @@ const Blog = () => {
   ];
 
   return (
-    <div style={{ paddingTop: '120px', paddingBottom: '80px', minHeight: '80vh' }}>
+    <div style={{ paddingTop: '180px', paddingBottom: '80px', minHeight: '80vh' }}>
       <div className="container">
         <h1 className="section-title">Our Blog</h1>
         <div style={{ display: 'grid', gap: '30px', maxWidth: '800px', margin: '0 auto' }}>

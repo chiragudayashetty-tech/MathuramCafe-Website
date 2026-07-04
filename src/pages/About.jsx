@@ -4,7 +4,7 @@ import './Home.css'; // Reusing some base styles
 
 const About = () => {
   return (
-    <div className="home-page" style={{ paddingTop: '100px' }}>
+    <div className="home-page" style={{ paddingTop: '180px' }}>
       <section className="intro-section section">
         <div className="container intro-container">
           <motion.div 
