@@ -67,7 +67,7 @@ const Contact = () => {
 
           <div className="map-container" style={{ marginTop: '60px', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--color-border)', boxShadow: 'var(--shadow-sm)' }}>
             <iframe 
-              src="https://maps.google.com/maps?q=Mathuram%20Cafe,%20Brahmavara,%20Udupi&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Mathuram%20Cafe,%20Lakshmi%20Empire,%20Chantharu,%20Brahmavara,%20Karnataka&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%" 
               height="450" 
               style={{ border: 0, display: 'block' }} 
