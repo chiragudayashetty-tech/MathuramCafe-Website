@@ -13,6 +13,11 @@ import Blog from './pages/Blog';
 import Post1 from './pages/posts/Post1';
 import Post2 from './pages/posts/Post2';
 import Post3 from './pages/posts/Post3';
+import PureVeg from './pages/seo/PureVeg';
+import SouthIndian from './pages/seo/SouthIndian';
+import FamilyRestaurant from './pages/seo/FamilyRestaurant';
+import Breakfast from './pages/seo/Breakfast';
+import Lunch from './pages/seo/Lunch';
 import Preloader from './components/Preloader';
 import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion';
@@ -46,6 +51,11 @@ function App() {
               <Route path="/blog/best-vegetarian-restaurant-in-brahmavara" element={<Post1 />} />
               <Route path="/blog/south-indian-breakfast-udupi" element={<Post2 />} />
               <Route path="/blog/best-family-restaurant-manipal-udupi" element={<Post3 />} />
+              <Route path="/best-pure-veg-restaurant-in-brahmavara" element={<PureVeg />} />
+              <Route path="/south-indian-restaurant-in-brahmavara" element={<SouthIndian />} />
+              <Route path="/family-restaurant-in-brahmavara" element={<FamilyRestaurant />} />
+              <Route path="/breakfast-in-brahmavara" element={<Breakfast />} />
+              <Route path="/lunch-in-brahmavara" element={<Lunch />} />
             </Routes>
           </main>
           <Footer />

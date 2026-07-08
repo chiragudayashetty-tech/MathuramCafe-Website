@@ -53,8 +53,12 @@ const Footer = () => {
       </div>
       <div className="footer-seo" style={{ borderTop: '1px solid var(--color-border)', marginTop: '20px', paddingTop: '20px', textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-light)' }}>
         <div className="container">
-          <p>
-            Visit Mathuram Cafe - the <Link to="/">Pure Veg Restaurant in Brahmavara</Link> | <Link to="/menu">South Indian Restaurant in Udupi</Link> | <Link to="/about">Family Restaurant in Brahmavara</Link> | <Link to="/menu">Best Dosa in Udupi</Link>
+          <p style={{ lineHeight: '2' }}>
+            <Link to="/best-pure-veg-restaurant-in-brahmavara">Best Pure Veg Restaurant in Brahmavara</Link> |{' '}
+            <Link to="/south-indian-restaurant-in-brahmavara">South Indian Restaurant in Brahmavara</Link> |{' '}
+            <Link to="/family-restaurant-in-brahmavara">Family Restaurant in Brahmavara</Link> |{' '}
+            <Link to="/breakfast-in-brahmavara">Breakfast in Brahmavara</Link> |{' '}
+            <Link to="/lunch-in-brahmavara">Lunch in Brahmavara</Link>
           </p>
         </div>
       </div>
