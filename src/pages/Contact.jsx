@@ -56,7 +56,7 @@ const Contact = () => {
               <p>Order Online</p>
             </a>
 
-            <a href="https://maps.app.goo.gl/B9Z229V3jD3s3hRJA" target="_blank" rel="noopener noreferrer" className="contact-card address-card">
+            <a href="https://maps.app.goo.gl/u8UTmtSuDWRUdk6Q9" target="_blank" rel="noopener noreferrer" className="contact-card address-card">
               <div className="contact-icon address-icon">
                 <FaMapMarkerAlt />
               </div>

@@ -36,7 +36,7 @@ const Footer = () => {
           <ul>
             <li>
               <FaMapMarkerAlt className="icon" />
-              <a href="https://maps.app.goo.gl/B9Z229V3jD3s3hRJA" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: 'inherit' }}>
+              <a href="https://maps.app.goo.gl/u8UTmtSuDWRUdk6Q9" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: 'inherit' }}>
                 {websiteData.address}
               </a>
             </li>

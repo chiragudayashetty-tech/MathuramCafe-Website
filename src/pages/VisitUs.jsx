@@ -22,7 +22,7 @@ const VisitUs = () => {
               scrolling="no" 
               marginHeight="0" 
               marginWidth="0" 
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mathuram%20Cafe,%20Krishikendra,%20Brahmavara,%20Udupi+(Mathuram%20Cafe)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://maps.google.com/maps?q=Mathuram%20Cafe,%20Lakshmi%20Empire,%20Chantharu,%20Brahmavara,%20Karnataka&t=&z=16&ie=UTF8&iwloc=&output=embed"
             ></iframe>
           </div>
 
