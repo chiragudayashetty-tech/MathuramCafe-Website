@@ -183,47 +183,49 @@ const UdupiItinerary = () => {
                         <h2>Detailed Budget Breakdown (Per Person)</h2>
                         <p>Udupi is highly affordable. Here is a realistic estimated budget for a 2-day weekend trip in 2026 (excluding your travel *to* Udupi and hotel stay):</p>
                         
-                        <table className="budget-table">
-                            <thead>
-                                <tr>
-                                    <th>Expense Category</th>
-                                    <th>Details</th>
-                                    <th>Estimated Cost (INR)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><strong>Food & Dining</strong></td>
-                                    <td>2 Breakfasts, 2 Lunches, 1 Dinner (e.g., Mathuram Cafe)</td>
-                                    <td>₹1,200</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Attraction Entry Fees</strong></td>
-                                    <td>Hasta Shilpa (₹300), Kapu Lighthouse (₹10), Sri Krishna (Free)</td>
-                                    <td>₹310</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>St. Mary's Island Ferry</strong></td>
-                                    <td>Round trip from Malpe Harbor</td>
-                                    <td>₹300</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Local Transport</strong></td>
-                                    <td>Auto-rickshaws between Malpe, Manipal, and Kapu</td>
-                                    <td>₹800</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Miscellaneous</strong></td>
-                                    <td>Snacks, bottled water, temple offerings</td>
-                                    <td>₹390</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Total Estimated Cost</strong></td>
-                                    <td><strong>2 Days / 1 Night Pocket Money</strong></td>
-                                    <td><strong>₹3,000</strong></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className="table-responsive-wrapper" style={{ overflowX: 'auto' }}>
+                            <table className="budget-table">
+                                <thead>
+                                    <tr>
+                                        <th>Expense Category</th>
+                                        <th>Details</th>
+                                        <th>Estimated Cost (INR)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Food & Dining</strong></td>
+                                        <td>2 Breakfasts, 2 Lunches, 1 Dinner (e.g., Mathuram Cafe)</td>
+                                        <td>₹1,200</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Attraction Entry Fees</strong></td>
+                                        <td>Hasta Shilpa (₹300), Kapu Lighthouse (₹10), Sri Krishna (Free)</td>
+                                        <td>₹310</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>St. Mary's Island Ferry</strong></td>
+                                        <td>Round trip from Malpe Harbor</td>
+                                        <td>₹300</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Local Transport</strong></td>
+                                        <td>Auto-rickshaws between Malpe, Manipal, and Kapu</td>
+                                        <td>₹800</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Miscellaneous</strong></td>
+                                        <td>Snacks, bottled water, temple offerings</td>
+                                        <td>₹390</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Total Estimated Cost</strong></td>
+                                        <td><strong>2 Days / 1 Night Pocket Money</strong></td>
+                                        <td><strong>₹3,000</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </section>
 
                     <section id="travel-tips">
