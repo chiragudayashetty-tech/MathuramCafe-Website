@@ -18,6 +18,8 @@ import SouthIndian from './pages/seo/SouthIndian';
 import FamilyRestaurant from './pages/seo/FamilyRestaurant';
 import Breakfast from './pages/seo/Breakfast';
 import Lunch from './pages/seo/Lunch';
+import TravelGuide from './pages/TravelGuide';
+import UdupiItinerary from './pages/guides/UdupiItinerary';
 import Preloader from './components/Preloader';
 import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence } from 'framer-motion';
@@ -56,6 +58,8 @@ function App() {
               <Route path="/family-restaurant-in-brahmavara" element={<FamilyRestaurant />} />
               <Route path="/breakfast-in-brahmavara" element={<Breakfast />} />
               <Route path="/lunch-in-brahmavara" element={<Lunch />} />
+              <Route path="/travel-guide" element={<TravelGuide />} />
+              <Route path="/travel-guide/udupi-2-day-itinerary" element={<UdupiItinerary />} />
             </Routes>
           </main>
           <Footer />
