@@ -176,7 +176,7 @@ const Home = () => {
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.4 }}
               >
-                <img src={`/assets/Photos/Food/${dish.img}`} alt={dish.name} loading="lazy" />
+                <img src={`/assets/Photos/Food/${dish.img}`} alt={`${dish.name} at Mathuram Cafe`} loading="lazy" />
                 <div className="dish-info">
                   <h3 className="gold-text">{dish.name}</h3>
                   <p>{dish.desc}</p>

@@ -86,7 +86,7 @@ const Gallery = () => {
           <button className="lightbox-close" onClick={closeLightbox}>
             <FaTimes />
           </button>
-          <img src={lightboxImage} alt="Enlarged" onClick={(e) => e.stopPropagation()} />
+          <img src={lightboxImage} alt="Enlarged photo at Mathuram Cafe" onClick={(e) => e.stopPropagation()} />
         </div>
       )}
     </motion.div>

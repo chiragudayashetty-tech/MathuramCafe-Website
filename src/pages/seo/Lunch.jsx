@@ -41,7 +41,7 @@ const Lunch = () => {
               <div style={{ flex: '1 1 300px' }}>
                 <img 
                   src="/assets/Photos/Food/south-indian-meals-brahmavara.webp" 
-                  alt="South Indian Meals Lunch in Brahmavara" 
+                  alt="South Indian Meals Lunch at Mathuram Cafe, Brahmavara" 
                   style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} 
                 />
               </div>

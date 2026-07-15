@@ -41,7 +41,7 @@ const SouthIndian = () => {
               <div style={{ flex: '1 1 300px' }}>
                 <img 
                   src="/assets/Photos/Food/best-masala-dosa-brahmavara.webp" 
-                  alt="Crispy Masala Dosa in Brahmavara" 
+                  alt="Crispy Masala Dosa at Mathuram Cafe, Brahmavara" 
                   style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} 
                 />
               </div>
@@ -59,7 +59,7 @@ const SouthIndian = () => {
               <div style={{ flex: '1 1 300px' }}>
                 <img 
                   src="/assets/Photos/Food/filter-coffee-mathuram-cafe.webp" 
-                  alt="Authentic Degree Filter Coffee in Udupi" 
+                  alt="Authentic Degree Filter Coffee at Mathuram Cafe, Udupi" 
                   style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} 
                 />
               </div>

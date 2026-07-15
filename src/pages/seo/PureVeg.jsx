@@ -59,7 +59,7 @@ const PureVeg = () => {
               <div style={{ flex: '1 1 300px' }}>
                 <img 
                   src="/assets/Photos/Resturant/Kitchen.webp" 
-                  alt="Hygienic Pure Veg Kitchen in Brahmavara" 
+                  alt="Hygienic Pure Veg Kitchen at Mathuram Cafe, Brahmavara" 
                   style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} 
                 />
               </div>

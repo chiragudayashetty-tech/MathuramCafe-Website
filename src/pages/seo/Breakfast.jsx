@@ -41,7 +41,7 @@ const Breakfast = () => {
               <div style={{ flex: '1 1 300px' }}>
                 <img 
                   src="/assets/Photos/Food/ghee-podi-idli-udupi.webp" 
-                  alt="Ghee Podi Idli Breakfast in Brahmavara" 
+                  alt="Ghee Podi Idli Breakfast at Mathuram Cafe, Brahmavara" 
                   style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} 
                 />
               </div>
@@ -59,7 +59,7 @@ const Breakfast = () => {
               <div style={{ flex: '1 1 300px' }}>
                 <img 
                   src="/assets/Photos/Food/Masala Dose and filter Cofee.webp" 
-                  alt="Masala Dosa and Filter Coffee Breakfast" 
+                  alt="Masala Dosa and Filter Coffee Breakfast at Mathuram Cafe, Brahmavara" 
                   style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }} 
                 />
               </div>
