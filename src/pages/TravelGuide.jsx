@@ -36,7 +36,7 @@ const TravelGuide = () => {
               <Link to="/travel-guide/udupi-2-day-itinerary" className="guide-card">
                 <div 
                   className="guide-image" 
-                  style={{ backgroundImage: "url('/assets/Photos/Travel/St marry\\'s Island.webp')" }}
+                  style={{ backgroundImage: "url('/assets/Photos/Travel/st-marys-island.webp')" }}
                 ></div>
                 <div className="guide-content">
                   <span className="guide-tag">Itinerary</span>
@@ -59,7 +59,7 @@ const TravelGuide = () => {
               <div className="guide-card" style={{ opacity: 0.7, cursor: 'default', transform: 'none', boxShadow: 'var(--shadow-md)' }}>
                 <div 
                   className="guide-image" 
-                  style={{ backgroundImage: "url('/assets/Photos/Travel/Kaupu Beach Sunset.webp')", filter: 'grayscale(100%)' }}
+                  style={{ backgroundImage: "url('/assets/Photos/Travel/kapu-lighthouse.webp')", filter: 'grayscale(100%)' }}
                 ></div>
                 <div className="guide-content">
                   <span className="guide-tag" style={{ background: '#9ca3af' }}>Coming Soon</span>
