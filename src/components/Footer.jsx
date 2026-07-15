@@ -28,6 +28,7 @@ const Footer = () => {
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/reviews">Reviews</Link></li>
+            <li><a href="/udupi-2-day-itinerary.html">2-Day Udupi Guide</a></li>
           </ul>
         </div>
 
