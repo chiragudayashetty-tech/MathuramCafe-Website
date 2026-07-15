@@ -61,6 +61,8 @@ const Home = () => {
             autoPlay 
             muted 
             playsInline
+            aria-label="Mathuram Cafe Signature Dishes Video Background"
+            title="Mathuram Cafe Signature Dishes"
             onEnded={handleVideoEnded}
             className="hero-video"
             initial={{ opacity: 0 }}
