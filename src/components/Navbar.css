@@ -111,7 +111,8 @@
   .nav-menu {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
+    transform: translateX(100%);
     width: 280px;
     height: 100vh;
     background-color: var(--color-background);
@@ -123,7 +124,7 @@
   }
   
   .nav-menu.active {
-    right: 0;
+    transform: translateX(0);
   }
   
   .nav-menu ul {
