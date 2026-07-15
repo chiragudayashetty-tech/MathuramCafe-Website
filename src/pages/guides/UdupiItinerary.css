@@ -164,7 +164,7 @@
   color: var(--color-text);
   margin: 40px 0 20px;
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .itinerary-main h3 {
@@ -183,7 +183,7 @@
   background: var(--bg-light, #f9fafb);
   padding: 20px;
   border-radius: 8px;
-  border-left: 4px solid var(--color-primary);
+  border-left: 2px solid var(--color-primary);
   margin-bottom: 40px;
 }
 
@@ -224,7 +224,7 @@
 }
 
 .itinerary-card {
-  border: 1px solid var(--color-border, #e5e7eb);
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   padding: 25px;
   margin-bottom: 30px;
