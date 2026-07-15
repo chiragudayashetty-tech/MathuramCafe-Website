@@ -14,7 +14,7 @@ const UdupiItinerary = () => {
       <div className="itinerary-page">
         <header className="itinerary-hero">
             <div className="itinerary-hero-content">
-                <h1 className="gold-text">2 Days in Udupi: The Perfect Travel Itinerary (2026 Guide)</h1>
+                <h1>2 Days in Udupi: The Perfect Travel Itinerary (2026 Guide)</h1>
                 <p style={{ fontSize: '1.2rem', color: '#f3f4f6' }}>Explore pristine beaches, historic temples, and the finest South Indian cuisine on this ultimate weekend getaway.</p>
                 
                 <div className="quick-facts">

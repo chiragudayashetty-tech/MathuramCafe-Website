@@ -137,12 +137,14 @@
   }
   
   .navbar-logo img {
-    height: 120px; /* Nearly 2x size for mobile */
-    transform: none; /* Remove scale to prevent alignment issues */
+    height: 60px; /* Much smaller mobile height */
+    max-width: 60vw; /* Prevent it from pushing screen width */
+    object-fit: contain;
+    transform: none;
   }
   
   .navbar.scrolled .navbar-logo img {
-    height: 80px;
+    height: 50px;
     transform: none;
   }
   

@@ -39,6 +39,7 @@
   margin-bottom: 20px;
   line-height: 1.2;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #ffffff; /* Force pure white for contrast against blurred background */
 }
 
 .quick-facts {
