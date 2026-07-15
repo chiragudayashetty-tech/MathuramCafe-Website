@@ -5,6 +5,16 @@
     "alt": "Baby corn chilli and mushroom pepper dry at Mathuram Cafe"
   },
   {
+    "src": "/assets/Photos/Food/Bale Kai Bajje.webp",
+    "category": "Food",
+    "alt": "Bale Kai Bajje at Mathuram Cafe"
+  },
+  {
+    "src": "/assets/Photos/Food/best-masala-dosa-brahmavara.webp",
+    "category": "Food",
+    "alt": "Masala dosa at Mathuram Cafe"
+  },
+  {
     "src": "/assets/Photos/Food/Breakfast Combo.webp",
     "category": "Food",
     "alt": "Breakfast Combo at Mathuram Cafe"
@@ -25,6 +35,11 @@
     "alt": "Filter Cofee at Mathuram Cafe"
   },
   {
+    "src": "/assets/Photos/Food/Finger chips.webp",
+    "category": "Food",
+    "alt": "Finger chips at Mathuram Cafe"
+  },
+  {
     "src": "/assets/Photos/Food/ghee-podi-idli-udupi.webp",
     "category": "Food",
     "alt": "Ghee Pudi idli at Mathuram Cafe"
@@ -40,11 +55,6 @@
     "alt": "Kotte Idli at Mathuram Cafe"
   },
   {
-    "src": "/assets/Photos/Food/best-masala-dosa-brahmavara.webp",
-    "category": "Food",
-    "alt": "Masala dosa at Mathuram Cafe"
-  },
-  {
     "src": "/assets/Photos/Food/Masala Dose and filter Cofee.webp",
     "category": "Food",
     "alt": "Masala Dose and filter Cofee at Mathuram Cafe"
@@ -58,6 +68,11 @@
     "src": "/assets/Photos/Food/Panner.webp",
     "category": "Food",
     "alt": "Panner at Mathuram Cafe"
+  },
+  {
+    "src": "/assets/Photos/Food/Pulliyogre.webp",
+    "category": "Food",
+    "alt": "Pulliyogre at Mathuram Cafe"
   },
   {
     "src": "/assets/Photos/Food/south-indian-meals-brahmavara.webp",
@@ -80,9 +95,19 @@
     "alt": "Veg Fried Rice and Hakka Noodles at Mathuram Cafe"
   },
   {
+    "src": "/assets/Photos/Food/Veg Manchow Soup.webp",
+    "category": "Food",
+    "alt": "Veg Manchow Soup at Mathuram Cafe"
+  },
+  {
     "src": "/assets/Photos/Resturant/Entrace.webp",
     "category": "Resturant",
     "alt": "Entrace at Mathuram Cafe"
+  },
+  {
+    "src": "/assets/Photos/Resturant/family-restaurant-mathuram-cafe-brahmavara.webp",
+    "category": "Resturant",
+    "alt": "Interior Ac 2 at Mathuram Cafe"
   },
   {
     "src": "/assets/Photos/Resturant/Happy Customers .webp",
@@ -93,11 +118,6 @@
     "src": "/assets/Photos/Resturant/Interior Ac 1.webp",
     "category": "Resturant",
     "alt": "Interior Ac 1 at Mathuram Cafe"
-  },
-  {
-    "src": "/assets/Photos/Resturant/family-restaurant-mathuram-cafe-brahmavara.webp",
-    "category": "Resturant",
-    "alt": "Interior Ac 2 at Mathuram Cafe"
   },
   {
     "src": "/assets/Photos/Resturant/Kitchen.webp",
