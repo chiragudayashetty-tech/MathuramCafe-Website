@@ -12,7 +12,7 @@
   justify-content: center;
   text-align: center;
   color: var(--color-text-inverse, #fff);
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('https://upload.wikimedia.org/wikipedia/commons/7/77/St._Mary%27s_Islands%2C_Udupi.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('/assets/Photos/Travel/St marry\\'s Island.webp') center/cover no-repeat;
   margin-top: 0; /* Navbar is fixed, padding handles the rest */
 }
 

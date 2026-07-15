@@ -82,6 +82,10 @@ const UdupiItinerary = () => {
                             <div className="alert-box">
                                 <strong>Travel Tip:</strong> There is <strong>no entry fee</strong> for general darshan. The temple opens at 4:30 AM and stays open until 9:30 PM. Men must remove their shirts before entering the inner sanctum, and traditional attire is recommended for all.
                             </div>
+                            <div className="image-wrapper">
+                                <img src="/assets/Photos/Travel/Krishna mutta.webp" alt="Sri Krishna Temple and Mutt in Udupi" loading="lazy" />
+                                <div className="image-caption">The historic Sri Krishna Mutt in Udupi.</div>
+                            </div>
                         </div>
 
                         <div className="itinerary-card">
@@ -89,6 +93,10 @@ const UdupiItinerary = () => {
                             <h3>Hasta Shilpa Heritage Village (Manipal)</h3>
                             <p>Take a short 15-minute auto-rickshaw ride up to Manipal to visit the incredible <strong>Hasta Shilpa Heritage Village</strong>. This is an open-air museum where traditional coastal Karnataka houses (which were facing demolition) have been painstakingly relocated and restored.</p>
                             <p><strong>Details:</strong> Entry fee is ₹300 per adult (₹150 for students). It operates from 10:00 AM to 5:00 PM, but note that it is <strong>closed on Mondays</strong>. The ticket counter strictly closes at 3:45 PM.</p>
+                            <div className="image-wrapper">
+                                <img src="/assets/Photos/Travel/Hasta Shilpa Heritage.webp" alt="Restored traditional coastal houses at Hasta Shilpa Heritage Village Manipal" loading="lazy" />
+                                <div className="image-caption">Beautifully preserved heritage homes at Hasta Shilpa.</div>
+                            </div>
                         </div>
 
                         <div className="itinerary-card">
@@ -97,8 +105,8 @@ const UdupiItinerary = () => {
                             <p>After grabbing a quick lunch, head to the Malpe Harbor. Here, you will board a ferry to the breathtaking <strong>St. Mary's Island</strong>, famous for its unique hexagonal basalt rock formations created by volcanic activity millions of years ago.</p>
                             
                             <div className="image-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Malpe_Beach_Udupi.jpg" alt="Beautiful view of Malpe Beach in Udupi, Karnataka" loading="lazy" />
-                                <div className="image-caption">Malpe Beach, the gateway to St. Mary's Island.</div>
+                                <img src="/assets/Photos/Travel/St marry's Island.webp" alt="Hexagonal basalt rock formations at St. Mary's Island, Malpe Udupi" loading="lazy" />
+                                <div className="image-caption">The unique geological formations of St. Mary's Island.</div>
                             </div>
 
                             <div className="alert-box">
@@ -114,6 +122,10 @@ const UdupiItinerary = () => {
                             <div className="time-badge">9:30 AM</div>
                             <h3>Manipal End Point & Arbi Falls</h3>
                             <p>Start your second morning with a peaceful walk at <strong>Manipal End Point</strong>. It's a beautifully maintained park situated on a cliff overlooking the Swarna River. If you are visiting just after the monsoon (September-November), take a slight detour to see the seasonal <strong>Arbi Falls</strong> nearby.</p>
+                            <div className="image-wrapper">
+                                <img src="/assets/Photos/Travel/Arbhi Falls.webp" alt="Scenic Arbi Falls hidden in the lush greenery of Manipal" loading="lazy" />
+                                <div className="image-caption">The serene Arbi Falls, a hidden gem near Manipal.</div>
+                            </div>
                         </div>
 
                         <div className="itinerary-card">
@@ -131,6 +143,10 @@ const UdupiItinerary = () => {
                             <div className="time-badge">3:30 PM</div>
                             <h3>Mattu Beach Drive</h3>
                             <p>Drive along the secluded and pristine <strong>Mattu Beach</strong>. The road runs parallel to the ocean on one side and a backwater river on the other. It is incredibly scenic and much less crowded than Malpe. (Fun fact: At certain times of the year, Mattu Beach exhibits bioluminescence at night!).</p>
+                            <div className="image-wrapper">
+                                <img src="/assets/Photos/Travel/Mattu Beach Drive.webp" alt="Coastal road driving along the pristine Mattu Beach in Udupi" loading="lazy" />
+                                <div className="image-caption">The incredible coastal drive along Mattu Beach.</div>
+                            </div>
                         </div>
 
                         <div className="itinerary-card">
@@ -139,7 +155,7 @@ const UdupiItinerary = () => {
                             <p>End your 2-day Udupi trip at the iconic <strong>Kapu Lighthouse</strong>. Built in 1901 by the British, this lighthouse stands on a rocky outcrop against the crashing waves of the Arabian Sea.</p>
                             
                             <div className="image-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Kaup_Lighthouse.jpg" alt="Historic Kapu Lighthouse at sunset near Udupi" loading="lazy" />
+                                <img src="/assets/Photos/Travel/Kaupu Beach Sunset.webp" alt="Kaup Lighthouse silhouetted against a golden sunset at Kaup Beach" loading="lazy" />
                                 <div className="image-caption">The historic Kapu Lighthouse offers the best sunset views in the district.</div>
                             </div>
 
