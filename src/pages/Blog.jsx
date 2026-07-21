@@ -18,6 +18,11 @@ const Blog = () => {
       id: 'best-family-restaurant-manipal-udupi',
       title: 'Best Family Restaurant Near Manipal and Udupi',
       excerpt: 'Looking for the perfect spot to dine with your family? Explore our spacious AC and Non-AC dining areas.'
+    },
+    {
+      id: 'best-veg-restaurant-near-nh-66',
+      title: 'Best Veg Restaurant Near NH 66: A Must-Stop Highway Oasis',
+      excerpt: 'Driving along the scenic NH 66? Discover why Mathuram Cafe is the perfect, hygienic pitstop for authentic pure veg food.'
     }
   ];
 
