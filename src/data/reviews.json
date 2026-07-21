@@ -1,5 +1,36 @@
 [
   {
+    "name": "Reshma Melanta",
+    "rating": 5,
+    "reviewDate": "Yesterday",
+    "review": "Good food good ambience\nTry the thali veg the variety is good.\nGood service and people around are helpful and amazing.",
+    "diningType": "Lunch",
+    "priceRange": "₹200–400",
+    "reviewCount": 5,
+    "featured": true
+  },
+  {
+    "name": "Vaishnavi Bhandari",
+    "rating": 5,
+    "reviewDate": "2 days ago",
+    "review": "Food was good and balkrishna service so good",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "reviewCount": 5,
+    "featured": true
+  },
+  {
+    "name": "s shetty",
+    "rating": 5,
+    "reviewDate": "1 week ago",
+    "review": "The food was really good! Everything was fresh, flavorful, and perfectly cooked. The taste exceeded my expectations, and the hospatility service provided by Nagshree was excellent. Thanks a lot Definitely worth a visit—I would love to come back again. Highly recommended!",
+    "diningType": "Lunch",
+    "priceRange": "₹800–1,000",
+    "reviewCount": 4,
+    "featured": true
+  },
+  {
     "name": "Ullas Amin",
     "rating": 5,
     "reviewDate": "17 weeks ago",

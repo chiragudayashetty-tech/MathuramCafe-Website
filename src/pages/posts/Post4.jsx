@@ -21,10 +21,24 @@ const Post4 = () => (
         <li style={{ marginBottom: '10px' }}><strong>Authentic &amp; Fresh Pure Veg Food:</strong> Forget the typical heavy highway dhaba food. Enjoy authentic Udupi-style South Indian cuisine that is light, flavorful, and freshly prepared. Their Kumbakonam Filter Coffee is exactly what you need to stay alert on the road.</li>
       </ul>
 
+      <div className="image-wrapper" style={{ margin: '30px 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <img src="/assets/Photos/Food/Masala Dose and filter Cofee.webp" alt="Authentic Masala Dosa and Filter Coffee at Mathuram Cafe" style={{ width: '100%', height: 'auto', display: 'block' }} />
+        <div style={{ textAlign: 'center', padding: '10px', background: '#f1f5f9', fontSize: '0.9rem', color: '#64748b', fontStyle: 'italic' }}>
+          Crispy Masala Dosa and authentic Kumbakonam Filter Coffee
+        </div>
+      </div>
+
       <h3 className="gold-text" style={{ marginTop: '30px', marginBottom: '15px' }}>What to Order on a Quick Pitstop</h3>
       <p style={{ marginBottom: '20px' }}>
         If you are short on time, order the <strong>Ghee Podi Thatte Idli</strong> or a classic crispy <strong>Masala Dosa</strong>. They are served quickly, perfectly hot, and absolutely delicious. Pair it with their signature filter coffee for the ultimate refreshment before hitting the highway again.
       </p>
+
+      <div className="image-wrapper" style={{ margin: '30px 0', borderRadius: '12px', overflow: 'hidden' }}>
+        <img src="/assets/Photos/Food/Thatte Idli.webp" alt="Ghee Podi Thatte Idli at Mathuram Cafe near NH 66" style={{ width: '100%', height: 'auto', display: 'block' }} />
+        <div style={{ textAlign: 'center', padding: '10px', background: '#f1f5f9', fontSize: '0.9rem', color: '#64748b', fontStyle: 'italic' }}>
+          The crowd-favorite Ghee Podi Thatte Idli
+        </div>
+      </div>
 
       <h3 className="gold-text" style={{ marginTop: '30px', marginBottom: '15px' }}>The Verdict</h3>
       <p style={{ marginBottom: '20px' }}>
