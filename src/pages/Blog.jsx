@@ -23,6 +23,11 @@ const Blog = () => {
       id: 'best-veg-restaurant-near-nh-66',
       title: 'Best Veg Restaurant Near NH 66: A Must-Stop Highway Oasis',
       excerpt: 'Driving along the scenic NH 66? Discover why Mathuram Cafe is the perfect, hygienic pitstop for authentic pure veg food.'
+    },
+    {
+      id: 'best-pure-veg-restaurant-in-udupi',
+      title: 'Why Mathuram Cafe is the Best Pure Veg Restaurant in Udupi',
+      excerpt: 'Discover the heart, soul, and authentic flavors that make us the ultimate destination for vegetarian food in the Udupi region.'
     }
   ];
 
