@@ -1,142 +1,222 @@
 [
   {
+    "src": "/assets/Photos/Food/authentic-dal-tadka-restaurant-brahmavara.webp",
+    "category": "Food",
+    "alt": "authentic-dal-tadka-restaurant-brahmavara"
+  },
+  {
     "src": "/assets/Photos/Food/Baby corn chilli and mushroom pepper dry.webp",
     "category": "Food",
-    "alt": "Baby corn chilli and mushroom pepper dry at Mathuram Cafe"
+    "alt": "Baby corn chilli and mushroom pepper dry"
   },
   {
     "src": "/assets/Photos/Food/Bale Kai Bajje.webp",
     "category": "Food",
-    "alt": "Bale Kai Bajje at Mathuram Cafe"
+    "alt": "Bale Kai Bajje"
+  },
+  {
+    "src": "/assets/Photos/Food/best-cream-of-tomato-soup-udupi.webp",
+    "category": "Food",
+    "alt": "best-cream-of-tomato-soup-udupi"
   },
   {
     "src": "/assets/Photos/Food/best-masala-dosa-brahmavara.webp",
     "category": "Food",
-    "alt": "Masala dosa at Mathuram Cafe"
+    "alt": "best-masala-dosa-brahmavara"
   },
   {
     "src": "/assets/Photos/Food/Breakfast Combo.webp",
     "category": "Food",
-    "alt": "Breakfast Combo at Mathuram Cafe"
+    "alt": "Breakfast Combo"
   },
   {
     "src": "/assets/Photos/Food/Butter Naan and Butter Panner.webp",
     "category": "Food",
-    "alt": "Butter Naan and Butter Panner at Mathuram Cafe"
+    "alt": "Butter Naan and Butter Panner"
   },
   {
     "src": "/assets/Photos/Food/Chocolate and Mango milkshake.webp",
     "category": "Food",
-    "alt": "Chocolate and Mango milkshake at Mathuram Cafe"
+    "alt": "Chocolate and Mango milkshake"
+  },
+  {
+    "src": "/assets/Photos/Food/crispy-gobi-manchurian-udupi-veg.webp",
+    "category": "Food",
+    "alt": "crispy-gobi-manchurian-udupi-veg"
+  },
+  {
+    "src": "/assets/Photos/Food/crispy-onion-bajji-snack-udupi.webp",
+    "category": "Food",
+    "alt": "crispy-onion-bajji-snack-udupi"
   },
   {
     "src": "/assets/Photos/Food/filter-coffee-mathuram-cafe.webp",
     "category": "Food",
-    "alt": "Filter Cofee at Mathuram Cafe"
+    "alt": "filter-coffee-mathuram-cafe"
   },
   {
     "src": "/assets/Photos/Food/Finger chips.webp",
     "category": "Food",
-    "alt": "Finger chips at Mathuram Cafe"
+    "alt": "Finger chips"
   },
   {
     "src": "/assets/Photos/Food/ghee-podi-idli-udupi.webp",
     "category": "Food",
-    "alt": "Ghee Pudi idli at Mathuram Cafe"
+    "alt": "ghee-podi-idli-udupi"
   },
   {
     "src": "/assets/Photos/Food/Gudbud Icecream.webp",
     "category": "Food",
-    "alt": "Gudbud Icecream at Mathuram Cafe"
+    "alt": "Gudbud Icecream"
   },
   {
     "src": "/assets/Photos/Food/Kotte Idli.webp",
     "category": "Food",
-    "alt": "Kotte Idli at Mathuram Cafe"
+    "alt": "Kotte Idli"
   },
   {
     "src": "/assets/Photos/Food/Masala Dose and filter Cofee.webp",
     "category": "Food",
-    "alt": "Masala Dose and filter Cofee at Mathuram Cafe"
+    "alt": "Masala Dose and filter Cofee"
+  },
+  {
+    "src": "/assets/Photos/Food/medu-vada-sambar-dip-udupi.webp",
+    "category": "Food",
+    "alt": "medu-vada-sambar-dip-udupi"
   },
   {
     "src": "/assets/Photos/Food/Paneer Tikka.webp",
     "category": "Food",
-    "alt": "Paneer Tikka at Mathuram Cafe"
+    "alt": "Paneer Tikka"
   },
   {
     "src": "/assets/Photos/Food/Panner.webp",
     "category": "Food",
-    "alt": "Panner at Mathuram Cafe"
+    "alt": "Panner"
   },
   {
     "src": "/assets/Photos/Food/Pulliyogre.webp",
     "category": "Food",
-    "alt": "Pulliyogre at Mathuram Cafe"
+    "alt": "Pulliyogre"
+  },
+  {
+    "src": "/assets/Photos/Food/pure-veg-onion-dosa-brahmavara.webp",
+    "category": "Food",
+    "alt": "pure-veg-onion-dosa-brahmavara"
+  },
+  {
+    "src": "/assets/Photos/Food/roasted-masala-papad-starter.webp",
+    "category": "Food",
+    "alt": "roasted-masala-papad-starter"
   },
   {
     "src": "/assets/Photos/Food/south-indian-meals-brahmavara.webp",
     "category": "Food",
-    "alt": "south India Meals at Mathuram Cafe"
+    "alt": "south-indian-meals-brahmavara"
+  },
+  {
+    "src": "/assets/Photos/Food/spicy-mushroom-chilli-dry.webp",
+    "category": "Food",
+    "alt": "spicy-mushroom-chilli-dry"
+  },
+  {
+    "src": "/assets/Photos/Food/sweet-kesari-bath-south-indian-dessert.webp",
+    "category": "Food",
+    "alt": "sweet-kesari-bath-south-indian-dessert"
   },
   {
     "src": "/assets/Photos/Food/Thatte Idli.webp",
     "category": "Food",
-    "alt": "Thatte Idli at Mathuram Cafe"
+    "alt": "Thatte Idli"
+  },
+  {
+    "src": "/assets/Photos/Food/traditional-poori-saagu-breakfast.webp",
+    "category": "Food",
+    "alt": "traditional-poori-saagu-breakfast"
   },
   {
     "src": "/assets/Photos/Food/Veg Biryani with gravy.webp",
     "category": "Food",
-    "alt": "Veg Biryani with gravy at Mathuram Cafe"
+    "alt": "Veg Biryani with gravy"
   },
   {
     "src": "/assets/Photos/Food/Veg Fried Rice and Hakka Noodles.webp",
     "category": "Food",
-    "alt": "Veg Fried Rice and Hakka Noodles at Mathuram Cafe"
+    "alt": "Veg Fried Rice and Hakka Noodles"
   },
   {
     "src": "/assets/Photos/Food/Veg Manchow Soup.webp",
     "category": "Food",
-    "alt": "Veg Manchow Soup at Mathuram Cafe"
+    "alt": "Veg Manchow Soup"
   },
   {
     "src": "/assets/Photos/Resturant/Entrace.webp",
     "category": "Resturant",
-    "alt": "Entrace at Mathuram Cafe"
+    "alt": "Entrace"
   },
   {
     "src": "/assets/Photos/Resturant/family-restaurant-mathuram-cafe-brahmavara.webp",
     "category": "Resturant",
-    "alt": "Interior Ac 2 at Mathuram Cafe"
+    "alt": "family-restaurant-mathuram-cafe-brahmavara"
   },
   {
     "src": "/assets/Photos/Resturant/Happy Customers .webp",
     "category": "Resturant",
-    "alt": "Happy Customers at Mathuram Cafe"
+    "alt": "Happy Customers "
   },
   {
     "src": "/assets/Photos/Resturant/Interior Ac 1.webp",
     "category": "Resturant",
-    "alt": "Interior Ac 1 at Mathuram Cafe"
+    "alt": "Interior Ac 1"
   },
   {
     "src": "/assets/Photos/Resturant/Kitchen.webp",
     "category": "Resturant",
-    "alt": "Kitchen at Mathuram Cafe"
+    "alt": "Kitchen"
   },
   {
     "src": "/assets/Photos/Resturant/Non ac interior 2.webp",
     "category": "Resturant",
-    "alt": "Non ac interior 2 at Mathuram Cafe"
+    "alt": "Non ac interior 2"
   },
   {
     "src": "/assets/Photos/Resturant/Non ac Interior.webp",
     "category": "Resturant",
-    "alt": "Non ac Interior at Mathuram Cafe"
+    "alt": "Non ac Interior"
   },
   {
     "src": "/assets/Photos/Resturant/parking .webp",
     "category": "Resturant",
-    "alt": "parking at Mathuram Cafe"
+    "alt": "parking "
+  },
+  {
+    "src": "/assets/Photos/Travel/arbi-falls.webp",
+    "category": "Travel",
+    "alt": "arbi-falls"
+  },
+  {
+    "src": "/assets/Photos/Travel/hasta-shilpa.webp",
+    "category": "Travel",
+    "alt": "hasta-shilpa"
+  },
+  {
+    "src": "/assets/Photos/Travel/kapu-lighthouse.webp",
+    "category": "Travel",
+    "alt": "kapu-lighthouse"
+  },
+  {
+    "src": "/assets/Photos/Travel/krishna-mutt.webp",
+    "category": "Travel",
+    "alt": "krishna-mutt"
+  },
+  {
+    "src": "/assets/Photos/Travel/mattu-beach.webp",
+    "category": "Travel",
+    "alt": "mattu-beach"
+  },
+  {
+    "src": "/assets/Photos/Travel/st-marys-island.webp",
+    "category": "Travel",
+    "alt": "st-marys-island"
   }
 ]
