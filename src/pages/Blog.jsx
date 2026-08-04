@@ -5,24 +5,9 @@ import { motion } from 'framer-motion';
 const Blog = () => {
   const posts = [
     {
-      id: 'best-vegetarian-restaurant-in-brahmavara',
-      title: 'Best Vegetarian Restaurant in Brahmavara',
-      excerpt: 'Discover why Mathuram Cafe is rated as the top pure veg dining experience for families and foodies alike.'
-    },
-    {
-      id: 'south-indian-breakfast-udupi',
-      title: 'Where to Eat South Indian Breakfast in Udupi',
-      excerpt: 'From crispy Masala Dosa to soft Ghee Podi Idli, find out where to get the most authentic morning meals.'
-    },
-    {
-      id: 'best-family-restaurant-manipal-udupi',
-      title: 'Best Family Restaurant Near Manipal and Udupi',
-      excerpt: 'Looking for the perfect spot to dine with your family? Explore our spacious AC and Non-AC dining areas.'
-    },
-    {
-      id: 'best-veg-restaurant-near-nh-66',
-      title: 'Best Veg Restaurant Near NH 66: A Must-Stop Highway Oasis',
-      excerpt: 'Driving along the scenic NH 66? Discover why Mathuram Cafe is the perfect, hygienic pitstop for authentic pure veg food.'
+      id: 'top-10-must-try-udupi-foods-mathuram-cafe',
+      title: 'Top 10 Must-Try Udupi Foods at Mathuram Cafe, Brahmavara (2026 Guide)',
+      excerpt: 'Looking for the best food in Udupi? Explore the top 10 authentic Udupi dishes from crispy Masala Dosa to Gudbud Ice Cream with full photos.'
     },
     {
       id: 'best-pure-veg-restaurant-in-udupi',
@@ -30,9 +15,24 @@ const Blog = () => {
       excerpt: 'Discover the heart, soul, and authentic flavors that make us the ultimate destination for vegetarian food in the Udupi region.'
     },
     {
-      id: 'top-10-must-try-udupi-foods-mathuram-cafe',
-      title: 'Top 10 Must-Try Udupi Foods at Mathuram Cafe, Brahmavara (2026 Guide)',
-      excerpt: 'Looking for the best food in Udupi? Explore the top 10 authentic Udupi dishes from crispy Masala Dosa to Gudbud Ice Cream with full photos.'
+      id: 'best-veg-restaurant-near-nh-66',
+      title: 'Best Veg Restaurant Near NH 66: A Must-Stop Highway Oasis',
+      excerpt: 'Driving along the scenic NH 66? Discover why Mathuram Cafe is the perfect, hygienic pitstop for authentic pure veg food.'
+    },
+    {
+      id: 'best-family-restaurant-manipal-udupi',
+      title: 'Best Family Restaurant Near Manipal and Udupi',
+      excerpt: 'Looking for the perfect spot to dine with your family? Explore our spacious AC and Non-AC dining areas.'
+    },
+    {
+      id: 'south-indian-breakfast-udupi',
+      title: 'Where to Eat South Indian Breakfast in Udupi',
+      excerpt: 'From crispy Masala Dosa to soft Ghee Podi Idli, find out where to get the most authentic morning meals.'
+    },
+    {
+      id: 'best-vegetarian-restaurant-in-brahmavara',
+      title: 'Best Vegetarian Restaurant in Brahmavara',
+      excerpt: 'Discover why Mathuram Cafe is rated as the top pure veg dining experience for families and foodies alike.'
     }
   ];
 
