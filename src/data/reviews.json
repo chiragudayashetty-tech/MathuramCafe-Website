@@ -1,5 +1,41 @@
 [
   {
+    "name": "Nishan shetty Nishan",
+    "rating": 5,
+    "reviewDate": "3 weeks ago",
+    "title": "Muskmelon Milkshake, Puri Baji & Benna Dosa",
+    "review": "I highly recommend this cafe. The food service quality are truely exceptional.. My favorite are Muskmelon Milk shake, puri Baji and Benna Dosa it was very very taste.Thank you",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "reviewCount": 1,
+    "featured": true
+  },
+  {
+    "name": "raksha sarpangala",
+    "rating": 5,
+    "reviewDate": "3 months ago",
+    "review": "😋 The food was absolutely delicious! amazing service! Would highly recommend trying their signature dishes 👍 .. A real treat, would definitely come back for more.",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "reviewCount": 2,
+    "featured": true
+  },
+  {
+    "name": "ShwethaNR",
+    "rating": 5,
+    "reviewDate": "4 months ago",
+    "title": "Idly Vadey, Lovely Sambar & Exceptional Late Night Hospitality",
+    "review": "Had breakfast here - Idly Vadey! Lovely Sambar and Chutney! Excellent coffee. Also has returned late and was in search of food around 10:30PM. It was their closing time but still the staff took initiative to prepare Ricebath and serve! Thank you for the kindness!",
+    "diningType": "Breakfast & Dinner",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "reviewCount": 84,
+    "featured": true
+  },
+  {
     "name": "Reshma Melanta",
     "rating": 5,
     "reviewDate": "Yesterday",

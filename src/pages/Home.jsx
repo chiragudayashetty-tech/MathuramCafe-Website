@@ -210,8 +210,16 @@ const Home = () => {
               </div>
             ))}
           </div>
-          <div className="text-center" style={{ textAlign: 'center', marginTop: '40px' }}>
+          <div className="text-center" style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '15px', flexWrap: 'wrap' }}>
             <Link to="/reviews" className="btn btn-secondary">Read All Reviews</Link>
+            <a 
+              href="https://g.page/r/CRxmGfm8VFvWEAE/review" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-primary"
+            >
+              ⭐ Review Us on Google
+            </a>
           </div>
         </div>
       </section>
