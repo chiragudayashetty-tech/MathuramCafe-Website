@@ -28,6 +28,11 @@ const Blog = () => {
       id: 'best-pure-veg-restaurant-in-udupi',
       title: 'Why Mathuram Cafe is the Best Pure Veg Restaurant in Udupi',
       excerpt: 'Discover the heart, soul, and authentic flavors that make us the ultimate destination for vegetarian food in the Udupi region.'
+    },
+    {
+      id: 'top-10-must-try-udupi-foods-mathuram-cafe',
+      title: 'Top 10 Must-Try Udupi Foods at Mathuram Cafe, Brahmavara (2026 Guide)',
+      excerpt: 'Looking for the best food in Udupi? Explore the top 10 authentic Udupi dishes from crispy Masala Dosa to Gudbud Ice Cream with full photos.'
     }
   ];
 
