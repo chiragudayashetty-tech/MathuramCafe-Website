@@ -32,7 +32,6 @@ const WallOfFame = () => {
             >
               <div 
                 className="vip-media-container"
-                onClick={() => setActiveVideo(vip)}
               >
                 {vip.image ? (
                   <img src={vip.image} alt={vip.title} className="vip-image" />
@@ -41,23 +40,24 @@ const WallOfFame = () => {
                     <span className="material-symbols-outlined" style={{ fontSize: '48px', color: 'var(--color-primary)' }}>star</span>
                   </div>
                 )}
-                
-                {vip.video && (
-                  <div className="play-button-overlay">
-                    <div className="play-icon">▶</div>
-                  </div>
-                )}
               </div>
               
               <div className="vip-content">
                 <h3 className="gold-text">{vip.name}</h3>
                 {vip.role && <p className="vip-role">{vip.role}</p>}
                 <p className="vip-description">{vip.description}</p>
-                {vip.instagram_link && (
-                  <a href={vip.instagram_link} target="_blank" rel="noopener noreferrer" className="vip-social-link">
-                    View on Instagram
-                  </a>
-                )}
+                <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap', alignItems: 'center' }}>
+                  {vip.video && (
+                    <button onClick={() => setActiveVideo(vip)} className="btn btn-primary" style={{ padding: '8px 20px', fontSize: '0.9rem', cursor: 'pointer' }}>
+                      ▶ Watch Video
+                    </button>
+                  )}
+                  {vip.instagram_link && (
+                    <a href={vip.instagram_link} target="_blank" rel="noopener noreferrer" className="vip-social-link">
+                      View on Instagram
+                    </a>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}
