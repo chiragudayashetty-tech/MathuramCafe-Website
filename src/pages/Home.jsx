@@ -227,9 +227,6 @@ const Home = () => {
               >
                 <div style={{ position: 'relative', width: '100%', aspectRatio: '4/3', overflow: 'hidden' }}>
                   <img src={vip.image} alt={vip.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                  <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <div style={{ width: '50px', height: '50px', background: 'var(--color-primary)', color: 'var(--color-bg)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '20px', paddingLeft: '4px' }}>▶</div>
-                  </div>
                 </div>
                 <div className="dish-info" style={{ padding: '20px' }}>
                   <h3 className="gold-text" style={{ fontSize: '1.2rem', marginBottom: '5px' }}>{vip.name}</h3>
