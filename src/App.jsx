@@ -10,6 +10,7 @@ import VisitUs from './pages/VisitUs';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import WallOfFame from './pages/WallOfFame';
 import Post1 from './pages/posts/Post1';
 import Post2 from './pages/posts/Post2';
 import Post3 from './pages/posts/Post3';
@@ -53,6 +54,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/about" element={<About />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/wall-of-fame" element={<WallOfFame />} />
               <Route path="/blog/best-vegetarian-restaurant-in-brahmavara" element={<Post1 />} />
               <Route path="/blog/south-indian-breakfast-udupi" element={<Post2 />} />
               <Route path="/blog/best-family-restaurant-manipal-udupi" element={<Post3 />} />

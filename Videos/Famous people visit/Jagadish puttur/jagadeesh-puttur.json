@@ -1,0 +1,84 @@
+{
+  "blogs": [
+    {
+      "id": "jagadeesh-puttur-kn",
+      "name": "ಜಗದೀಶ್ ಪುತ್ತೂರ್",
+      "role": "ಕಲರ್ಸ್ ಕನ್ನಡ ಖ್ಯಾತಿಯ ಗಾಯಕ",
+      "language": "kn",
+      "title": "ಬ್ರಹ್ಮಾವರದ ಮಥುರಂ ಕೆಫೆಗೆ ಗಾಯಕ ಜಗದೀಶ್ ಪುತ್ತೂರ್ ಭೇಟಿ | ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್",
+      "meta_description": "ಬ್ರಹ್ಮಾವರದ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಮಥುರಂ ಕೆಫೆಗೆ ಕಲರ್ಸ್ ಕನ್ನಡ ಖ್ಯಾತಿಯ ಗಾಯಕ ಜಗದೀಶ್ ಪುತ್ತೂರ್ ಭೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ್ದಾರೆ.",
+      "slug": "jagadeesh-puttur-mathuram-cafe-brahmavara-kannada",
+      "focus_keywords": [
+        "ಮಥುರಂ ಕೆಫೆ ಬ್ರಹ್ಮಾವರ",
+        "ಜಗದೀಶ್ ಪುತ್ತೂರ್",
+        "ಕಲರ್ಸ್ ಕನ್ನಡ ಗಾಯಕ"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "ಬ್ರಹ್ಮಾವರದ ಕೃಷಿ ಕೇಂದ್ರದ ಎದುರುಗಡೆ ಇತ್ರೀಚೆಗೆ ಶುಭಾರಂಭಗೊಂಡ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೇಲ್ **ಮಧುರಂ ಕೆಫೆಗೆ** ಬೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ ಕಲರ್ಸ್ ಕನ್ನಡ ಖ್ಯಾತಿಯ ಹೆಸರಾಂತ ಗಾಯಕ ಜಗದೀಶ್ ಪುತ್ತೂರ್.\n\n#udupi_manipal_kundapur #foodlover #foodie #jagadeeshputtur",
+      "tags": [
+        "ಮಥುರಂ ಕೆಫೆ",
+        "ಬ್ರಹ್ಮಾವರ",
+        "ಜಗದೀಶ್ ಪುತ್ತೂರ್",
+        "ಕಲರ್ಸ್ ಕನ್ನಡ",
+        "ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್"
+      ],
+      "instagram_link": "https://www.instagram.com/p/DXNycg1jkoB/?hl=en",
+      "canonical_hashtags": [
+        "#udupi_manipal_kundapur",
+        "#foodlover",
+        "#foodie",
+        "#jagadeeshputtur"
+      ]
+    },
+    {
+      "id": "jagadeesh-puttur-en",
+      "name": "Jagadeesh Puttur",
+      "role": "Renowned Colors Kannada Singer",
+      "language": "en",
+      "title": "Mathuram Cafe Brahmavara Visited by Singer Jagadeesh Puttur | New Pure Veg Hotel",
+      "meta_description": "Renowned Colors Kannada singer Jagadeesh Puttur visited the newly opened pure vegetarian hotel Mathuram Cafe in Brahmavara and extended his wishes.",
+      "slug": "jagadeesh-puttur-mathuram-cafe-brahmavara",
+      "focus_keywords": [
+        "Mathuram Cafe Brahmavara",
+        "Jagadeesh Puttur",
+        "Colors Kannada singer"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "A recently opened pure vegetarian hotel, **Mathuram Cafe**, located opposite the Krishi Kendra in Brahmavara, was visited by renowned Colors Kannada singer Jagadeesh Puttur, who extended his best wishes.\n\n#udupi_manipal_kundapur #foodlover #foodie #jagadeeshputtur",
+      "tags": [
+        "Mathuram Cafe",
+        "Brahmavara",
+        "Jagadeesh Puttur",
+        "Colors Kannada singer",
+        "pure veg hotel Udupi"
+      ],
+      "instagram_link": "https://www.instagram.com/p/DXNycg1jkoB/?hl=en",
+      "canonical_hashtags": [
+        "#udupi_manipal_kundapur",
+        "#foodlover",
+        "#foodie",
+        "#jagadeeshputtur"
+      ]
+    }
+  ]
+}

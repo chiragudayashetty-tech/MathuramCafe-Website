@@ -1,0 +1,86 @@
+{
+  "blogs": [
+    {
+      "id": "tara-anuradha-kn",
+      "name": "ತಾರಾ ಅನುರಾಧ",
+      "role": "ಖ್ಯಾತ ಚಿತ್ರನಟಿ",
+      "language": "kn",
+      "title": "ಬ್ರಹ್ಮಾವರದ ಮಥುರಂ ಕೆಫೆಗೆ ನಟಿ ತಾರಾ ಅನುರಾಧ ಭೇಟಿ | ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್",
+      "meta_description": "ಬ್ರಹ್ಮಾವರದ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಮಥುರಂ ಕೆಫೆಗೆ ಖ್ಯಾತ ಚಿತ್ರನಟಿ ತಾರಾ ಅನುರಾಧ ಭೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ್ದಾರೆ.",
+      "slug": "tara-anuradha-mathuram-cafe-brahmavara-kannada",
+      "focus_keywords": [
+        "ಮಥುರಂ ಕೆಫೆ ಬ್ರಹ್ಮಾವರ",
+        "ತಾರಾ ಅನುರಾಧ",
+        "ಸ್ಯಾಂಡಲ್‌ವುಡ್ ನಟಿ"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "ಬ್ರಹ್ಮಾವರದ ಕೃಷಿ ಕೇಂದ್ರದ ಎದುರುಗಡೆ ಇತ್ರೀಚೆಗೆ ಶುಭಾರಂಭಗೊಂಡ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೇಲ್ **ಮಧುರಂ ಕೆಫೆಗೆ** ಬೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ ಖ್ಯಾತ ಚಿತ್ರನಟಿ ತಾರಾ ಅನುರಾಧ ಅಮ್ಮ.\n\n#taraanuradha #tharaanuradhaactress @anuradha_tara_ #udupi_manipal_kundapur #sandalwood #foodlovers",
+      "tags": [
+        "ಮಥುರಂ ಕೆಫೆ",
+        "ಬ್ರಹ್ಮಾವರ",
+        "ತಾರಾ ಅನುರಾಧ",
+        "ಸ್ಯಾಂಡಲ್‌ವುಡ್",
+        "ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್"
+      ],
+      "instagram_link": "https://www.instagram.com/mathuram.cafe/",
+      "canonical_hashtags": [
+        "#taraanuradha",
+        "#tharaanuradhaactress",
+        "#udupi_manipal_kundapur",
+        "#sandalwood",
+        "#foodlovers"
+      ]
+    },
+    {
+      "id": "tara-anuradha-en",
+      "name": "Tara Anuradha",
+      "role": "Renowned Film Actress",
+      "language": "en",
+      "title": "Mathuram Cafe Brahmavara Visited by Actress Tara Anuradha | New Pure Veg Hotel",
+      "meta_description": "Renowned film actress Tara Anuradha visited the newly opened pure vegetarian hotel Mathuram Cafe in Brahmavara and extended her wishes.",
+      "slug": "tara-anuradha-mathuram-cafe-brahmavara",
+      "focus_keywords": [
+        "Mathuram Cafe Brahmavara",
+        "Tara Anuradha",
+        "Sandalwood actress"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "A recently opened pure vegetarian hotel, **Mathuram Cafe**, located opposite the Krishi Kendra in Brahmavara, was visited by renowned film actress Tara Anuradha, who extended her best wishes.\n\n#taraanuradha #tharaanuradhaactress @anuradha_tara_ #udupi_manipal_kundapur #sandalwood #foodlovers",
+      "tags": [
+        "Mathuram Cafe",
+        "Brahmavara",
+        "Tara Anuradha",
+        "Sandalwood actress",
+        "pure veg hotel Udupi"
+      ],
+      "instagram_link": "https://www.instagram.com/mathuram.cafe/",
+      "canonical_hashtags": [
+        "#taraanuradha",
+        "#tharaanuradhaactress",
+        "#udupi_manipal_kundapur",
+        "#sandalwood",
+        "#foodlovers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "blogs": [
+    {
+      "id": "nalin-kumar-kateel-kn",
+      "name": "ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲ್",
+      "role": "ಬಿಜೆಪಿ ನಿಕಟಪೂರ್ವ ರಾಜ್ಯಾಧ್ಯಕ್ಷರು",
+      "language": "kn",
+      "title": "ಬ್ರಹ್ಮಾವರದ ಮಥುರಂ ಕೆಫೆಗೆ ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲ್ ಭೇಟಿ | ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್",
+      "meta_description": "ಬ್ರಹ್ಮಾವರದ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಮಥುರಂ ಕೆಫೆಗೆ ಬಿಜೆಪಿ ನಿಕಟಪೂರ್ವ ರಾಜ್ಯಾಧ್ಯಕ್ಷ ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲ್ ಭೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ್ದಾರೆ.",
+      "slug": "nalin-kumar-kateel-mathuram-cafe-brahmavara-kannada",
+      "focus_keywords": [
+        "ಮಥುರಂ ಕೆಫೆ ಬ್ರಹ್ಮಾವರ",
+        "ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲ್"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "ಬ್ರಹ್ಮಾವರದ ಕೃಷಿ ಕೇಂದ್ರದ ಎದುರುಗಡೆ ಇತ್ರೀಚೆಗೆ ಶುಭಾರಂಭಗೊಂಡ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೇಲ್ **ಮಧುರಂ ಕೆಫೆಗೆ** ಬೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ ಬಿಜೆಪಿಯ ನಿಕಟಪೂರ್ವ ರಾಜ್ಯಾಧ್ಯಕ್ಷರಾದ ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲ್ ಅವರು. ಅವರೊಂದಿಗೆ ಉಡುಪಿ ಜಿಲ್ಲಾ ಬಿಜೆಪಿಯ ಮಾಜಿ ಜಿಲ್ಲಾಧ್ಯಕ್ಷರಾದ ತಿಂಗಳ ವಿಶ್ವಾರ್ಜುನ ಹೆಗ್ಗೆ, ಜಿಲ್ಲಾ ಬಿಜೆಪಿಯ ಉಪಾಧ್ಯಕ್ಷ ಕಿರಣ್ ಕುಮಾರ್ ಬೈಲೂರು, ಬಾಲಕೃಷ್ಣ ಶೆಟ್ಟಿ ಕಾರ್ಜೆ ಹಾಗೂ ಇನ್ನಿತರ ನಾಯಕರು ಉಪಸ್ಥಿತರಿದ್ದರು.\n\n#udupi_manipal_kundapur #bjjpkarnataka #nalinkumarkateel #foodlover",
+      "tags": [
+        "ಮಥುರಂ ಕೆಫೆ",
+        "ಬ್ರಹ್ಮಾವರ",
+        "ನಳಿನ್ ಕುಮಾರ್ ಕಟೀಲ್",
+        "ಬಿಜೆಪಿ",
+        "ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್"
+      ],
+      "instagram_link": "https://www.instagram.com/mathuram.cafe/",
+      "canonical_hashtags": [
+        "#udupi_manipal_kundapur",
+        "#bjjpkarnataka",
+        "#nalinkumarkateel",
+        "#foodlover"
+      ]
+    },
+    {
+      "id": "nalin-kumar-kateel-en",
+      "name": "Nalin Kumar Kateel",
+      "role": "Former BJP State President",
+      "language": "en",
+      "title": "Mathuram Cafe Brahmavara Visited by Nalin Kumar Kateel | New Pure Veg Hotel",
+      "meta_description": "Former BJP State President Nalin Kumar Kateel visited the newly opened pure vegetarian hotel Mathuram Cafe in Brahmavara and extended his wishes.",
+      "slug": "nalin-kumar-kateel-mathuram-cafe-brahmavara",
+      "focus_keywords": [
+        "Mathuram Cafe Brahmavara",
+        "Nalin Kumar Kateel"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "A recently opened pure vegetarian hotel, **Mathuram Cafe**, located opposite the Krishi Kendra in Brahmavara, was visited by former BJP State President Nalin Kumar Kateel, who extended his best wishes. He was accompanied by former Udupi District BJP President Tingala Vishwarjuna Hegde, District BJP Vice President Kiran Kumar Bailur, Balakrishna Shetty Karje, and other leaders.\n\n#udupi_manipal_kundapur #bjjpkarnataka #nalinkumarkateel #foodlover",
+      "tags": [
+        "Mathuram Cafe",
+        "Brahmavara",
+        "Nalin Kumar Kateel",
+        "BJP",
+        "pure veg hotel Udupi"
+      ],
+      "instagram_link": "https://www.instagram.com/mathuram.cafe/",
+      "canonical_hashtags": [
+        "#udupi_manipal_kundapur",
+        "#bjjpkarnataka",
+        "#nalinkumarkateel",
+        "#foodlover"
+      ]
+    }
+  ]
+}

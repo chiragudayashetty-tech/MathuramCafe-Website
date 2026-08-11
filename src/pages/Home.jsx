@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import websiteData from '../data/websiteData.json';
 import menuData from '../data/menu.json';
 import reviewsData from '../data/reviews.json';
+import vipsData from '../data/vips.json';
 import { FaLeaf, FaMotorcycle, FaCar, FaSnowflake } from 'react-icons/fa';
 import './Home.css';
 
@@ -41,6 +42,7 @@ const Home = () => {
   }, [currentVideoIndex]);
   
   const featuredReviews = reviewsData.filter(r => r.featured).slice(0, 3);
+  const featuredVips = vipsData.filter(v => v.image).slice(0, 4);
 
   return (
     <div className="home-page">
@@ -194,6 +196,52 @@ const Home = () => {
           >
             <Link to="/menu" className="btn btn-secondary">Explore Full Menu</Link>
           </motion.div>
+        </div>
+      </section>
+
+      {/* VIP Guests Preview */}
+      <section className="section vip-preview-section">
+        <div className="container">
+          <motion.div 
+            className="text-center"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            style={{ marginBottom: '40px' }}
+          >
+            <h2 className="section-title gold-text">Our Esteemed Guests</h2>
+            <p style={{ color: 'var(--color-text-light)' }}> Mathuram Cafe is the premier choice for eminent leaders and celebrities in Udupi.</p>
+          </motion.div>
+          
+          <div className="dishes-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
+            {featuredVips.map((vip, idx) => (
+              <motion.div 
+                className="dish-card glass-panel" 
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.4, delay: idx * 0.1 }}
+                style={{ cursor: 'pointer' }}
+                onClick={() => window.location.href = '/wall-of-fame'}
+              >
+                <div style={{ position: 'relative', width: '100%', aspectRatio: '4/3', overflow: 'hidden' }}>
+                  <img src={vip.image} alt={vip.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <div style={{ width: '50px', height: '50px', background: 'var(--color-primary)', color: 'var(--color-bg)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '20px', paddingLeft: '4px' }}>▶</div>
+                  </div>
+                </div>
+                <div className="dish-info" style={{ padding: '20px' }}>
+                  <h3 className="gold-text" style={{ fontSize: '1.2rem', marginBottom: '5px' }}>{vip.name}</h3>
+                  <p style={{ fontSize: '0.9rem' }}>{vip.role}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center" style={{ marginTop: '30px' }}>
+            <Link to="/wall-of-fame" className="btn btn-secondary">View Wall of Fame</Link>
+          </div>
         </div>
       </section>
 

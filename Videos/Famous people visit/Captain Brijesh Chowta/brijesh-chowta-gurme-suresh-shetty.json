@@ -1,0 +1,84 @@
+{
+  "blogs": [
+    {
+      "id": "brijesh-chowta-gurme-suresh-shetty-kn",
+      "name": "ಕ್ಯಾಪ್ಟನ್ ಬ್ರಿಜೇಶ್ ಚೌಟ ಮತ್ತು ಗುರ್ಮೆ ಸುರೇಶ್ ಶೆಟ್ಟಿ",
+      "role": "ದಕ್ಷಿಣ ಕನ್ನಡ ಸಂಸದರು ಮತ್ತು ಶಾಸಕರು",
+      "language": "kn",
+      "title": "ಬ್ರಹ್ಮಾವರದ ಮಥುರಂ ಕೆಫೆಗೆ ಸಂಸದ ಬ್ರಿಜೇಶ್ ಚೌಟ ಮತ್ತು ಶಾಸಕ ಗುರ್ಮೆ ಸುರೇಶ್ ಶೆಟ್ಟಿ ಭೇಟಿ",
+      "meta_description": "ಬ್ರಹ್ಮಾವರದ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಮಥುರಂ ಕೆಫೆಗೆ ದಕ್ಷಿಣ ಕನ್ನಡ ಸಂಸದ ಬ್ರಿಜೇಶ್ ಚೌಟ ಹಾಗೂ ಶಾಸಕ ಗುರ್ಮೆ ಸುರೇಶ್ ಶೆಟ್ಟಿ ಭೇಟಿ ನೀಡಿ ಶುಭ ಹಾರೈಸಿದ್ದಾರೆ.",
+      "slug": "brijesh-chowta-gurme-suresh-shetty-mathuram-cafe-brahmavara-kannada",
+      "focus_keywords": [
+        "ಮಥುರಂ ಕೆಫೆ ಬ್ರಹ್ಮಾವರ",
+        "ಬ್ರಿಜೇಶ್ ಚೌಟ",
+        "ಗುರ್ಮೆ ಸುರೇಶ್ ಶೆಟ್ಟಿ"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "ಬ್ರಹ್ಮಾವರದ ಕೃಷಿ ಕೇಂದ್ರದ ಎದುರುಗಡೆ ಲಕ್ಷ್ಮೀ ಎಂಪೈರ್ ನಲ್ಲಿರುವ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೇಲ್ **ಮಧುರಂ ಕೆಫೆಗೆ** ದಕ್ಷಿಣ ಕನ್ನಡದ ಜನಪ್ರಿಯ ಸಂಸದರಾದ ಕ್ಯಾಪ್ಟನ್ ಬ್ರಿಜೇಶ್ ಚೌಟ ರವರು ಹಾಗೂ ಜನಮೆಚ್ಚಿದ ಶಾಸಕರಾದ ಗುರ್ಮೆ ಸುರೇಶ್ ಶೆಟ್ಟಿಯವರು, ಉಡುಪಿ ಜಿಲ್ಲಾ ಬಿಜೆಪಿ ಅಧ್ಯಕ್ಷರಾದ ಕುತ್ಯಾರು ನವೀನ್ ಶೆಟ್ಟಿಯವರು ಹಾಗೂ ಸುಗ್ಗಿ ಸುಧಾಕರ ಶೆಟ್ಟಿ, ಈಶ್ವರ ಶೆಟ್ಟಿಯವರೊಂದಿಗೆ ಆಗಮಿಸಿ ಶುಭಹಾರೈಸಿದರು.\n\n#brahmavara #captainbrijeshchowta #foodlovers #gurmesureshshetty",
+      "tags": [
+        "ಮಥುರಂ ಕೆಫೆ",
+        "ಬ್ರಹ್ಮಾವರ",
+        "ಬ್ರಿಜೇಶ್ ಚೌಟ",
+        "ಗುರ್ಮೆ ಸುರೇಶ್ ಶೆಟ್ಟಿ",
+        "ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್"
+      ],
+      "instagram_link": "https://www.instagram.com/p/DZSc4I-O7SW/?hl=en",
+      "canonical_hashtags": [
+        "#brahmavara",
+        "#captainbrijeshchowta",
+        "#foodlovers",
+        "#gurmesureshshetty"
+      ]
+    },
+    {
+      "id": "brijesh-chowta-gurme-suresh-shetty-en",
+      "name": "Captain Brijesh Chowta & Gurme Suresh Shetty",
+      "role": "MP Dakshina Kannada & MLA",
+      "language": "en",
+      "title": "Mathuram Cafe Brahmavara Visited by MP Brijesh Chowta & MLA Gurme Suresh Shetty",
+      "meta_description": "Dakshina Kannada MP Captain Brijesh Chowta and MLA Gurme Suresh Shetty visited the pure vegetarian hotel Mathuram Cafe in Brahmavara and extended their wishes.",
+      "slug": "brijesh-chowta-gurme-suresh-shetty-mathuram-cafe-brahmavara",
+      "focus_keywords": [
+        "Mathuram Cafe Brahmavara",
+        "Brijesh Chowta",
+        "Gurme Suresh Shetty"
+      ],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ / Mathuram Cafe",
+        "area": "ಬ್ರಹ್ಮಾವರ / Brahmavara",
+        "district": "ಉಡುಪಿ / Udupi",
+        "state": "ಕರ್ನಾಟಕ / Karnataka",
+        "nearby": [
+          "Manipal",
+          "Kundapur",
+          "Udupi city"
+        ]
+      },
+      "content": "The pure vegetarian hotel **Mathuram Cafe**, located at Lakshmi Empire opposite the Krishi Kendra in Brahmavara, was visited by popular Dakshina Kannada MP Captain Brijesh Chowta and well-loved MLA Gurme Suresh Shetty, along with Udupi District BJP President Kutyar Naveen Shetty, Suggi Sudhakara Shetty, and Ishwara Shetty, who all extended their best wishes.\n\n#brahmavara #captainbrijeshchowta #foodlovers #gurmesureshshetty",
+      "tags": [
+        "Mathuram Cafe",
+        "Brahmavara",
+        "Brijesh Chowta",
+        "Gurme Suresh Shetty",
+        "pure veg hotel Udupi"
+      ],
+      "instagram_link": "https://www.instagram.com/p/DZSc4I-O7SW/?hl=en",
+      "canonical_hashtags": [
+        "#brahmavara",
+        "#captainbrijeshchowta",
+        "#foodlovers",
+        "#gurmesureshshetty"
+      ]
+    }
+  ]
+}

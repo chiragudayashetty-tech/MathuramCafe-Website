@@ -1,0 +1,44 @@
+{
+  "blogs": [
+    {
+      "id": "kota-srinivas-poojary-kn",
+      "name": "ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿ",
+      "language": "kn",
+      "title": "ಬ್ರಹ್ಮಾವರದಲ್ಲಿ ಮಥುರಂ ಕೆಫೆ ಆರಂಭ — ಸಂಸದ ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿಯವರಿಂದ ಭೇಟಿ | ಉಡುಪಿ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್",
+      "meta_description": "ಬ್ರಹ್ಮಾವರ, ಉಡುಪಿಯಲ್ಲಿ ಹೊಸದಾಗಿ ಆರಂಭಗೊಂಡ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಮಥುರಂ ಕೆಫೆಗೆ ಸಂಸದ ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿಯವರು ಭೇಟಿ ನೀಡಿದ್ದಾರೆ. ಉಡುಪಿ, ಕುಂದಾಪುರ, ಮಣಿಪಾಲ ಭಾಗದ ಜನರಿಗೆ ಹೊಸ ಊಟದ ತಾಣ — ವಿಳಾಸ, ವಿಶೇಷತೆ ಮತ್ತು ಫೋಟೋಗಳೊಂದಿಗೆ.",
+      "slug": "mathuram-cafe-brahmavara-udupi-kannada",
+      "focus_keywords": ["ಮಥುರಂ ಕೆಫೆ ಬ್ರಹ್ಮಾವರ", "ಬ್ರಹ್ಮಾವರ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್", "ಉಡುಪಿ ಹೊಸ ಹೋಟೆಲ್", "ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿ", "ಮಣಿಪಾಲ ಕುಂದಾಪುರ ಆಹಾರ"],
+      "location": {
+        "name": "ಮಥುರಂ ಕೆಫೆ",
+        "area": "ಬ್ರಹ್ಮಾವರ",
+        "district": "ಉಡುಪಿ",
+        "state": "ಕರ್ನಾಟಕ",
+        "nearby": ["ಮಣಿಪಾಲ", "ಕುಂದಾಪುರ", "ಉಡುಪಿ ನಗರ"]
+      },
+      "content": "ಬ್ರಹ್ಮಾವರದಲ್ಲಿ ನೂತನ ವಾಗಿ ಆರಂಭಗೊಂಡ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ **ಮಥುರಂ ಕೆಫೆಗೆ** ಬೆಟ್ಟಿ ನೀಡಿದ ಉಡುಪಿ ಚಿಕ್ಕಮಗಳೂರು ಸಂಸದ ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿಯವರು.\n\n**ಮಥುರಂ ಕೆಫೆ ಬಗ್ಗೆ:** ಉಡುಪಿ-ಮಣಿಪಾಲ-ಕುಂದಾಪುರ ರಸ್ತೆಯಲ್ಲಿರುವ ಬ್ರಹ್ಮಾವರದಲ್ಲಿ ಈ ಹೊಸ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಆರಂಭವಾಗಿದ್ದು, ಸ್ಥಳೀಯ ಆಹಾರ ಪ್ರಿಯರ ಗಮನ ಸೆಳೆದಿದೆ.\n\n**ಉದ್ಘಾಟನೆ ವಿಶೇಷತೆ:** ಸಂಸದ ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿಯವರ ಭೇಟಿಯೊಂದಿಗೆ ಮಥುರಂ ಕೆಫೆ ಗಮನ ಸೆಳೆಯಿತು.\n\n#brahmavara #udupi_manipal_kundapur #udupi #food #udupifood",
+      "tags": ["ಮಥುರಂ ಕೆಫೆ", "ಬ್ರಹ್ಮಾವರ", "ಕೋಟ ಶ್ರೀನಿವಾಸ ಪೂಜಾರಿ", "ಉಡುಪಿ ಆಹಾರ", "ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್", "ಕುಂದಾಪುರ", "ಮಣಿಪಾಲ ಆಹಾರ", "ಬ್ರಹ್ಮಾವರ ಹೋಟೆಲ್"],
+      "instagram_link": "https://www.instagram.com/p/DVdBGiZkqsB/?hl=en",
+      "canonical_hashtags": ["#brahmavara", "#udupi_manipal_kundapur", "#udupi", "#food", "#udupifood"]
+    },
+    {
+      "id": "kota-srinivas-poojary-en",
+      "name": "Kota Srinivas Poojary",
+      "language": "en",
+      "title": "Mathuram Cafe Opens in Brahmavara, Udupi — Visited by MP Kota Srinivas Poojary | New Pure Veg Hotel",
+      "meta_description": "Mathuram Cafe, a newly opened pure vegetarian hotel in Brahmavara, Udupi, was visited by Udupi-Chikmagalur MP Kota Srinivas Poojary. Discover this new food destination near Manipal and Kundapur — location, highlights, and more.",
+      "slug": "mathuram-cafe-brahmavara-udupi",
+      "focus_keywords": ["Mathuram Cafe Brahmavara", "pure vegetarian hotel Udupi", "new hotel Brahmavara", "Kota Srinivas Poojary", "Manipal Kundapur food"],
+      "location": {
+        "name": "Mathuram Cafe",
+        "area": "Brahmavara",
+        "district": "Udupi",
+        "state": "Karnataka",
+        "nearby": ["Manipal", "Kundapur", "Udupi city"]
+      },
+      "content": "A newly opened pure vegetarian hotel, **Mathuram Cafe**, in Brahmavara was visited by Udupi-Chikmagalur MP Kota Srinivas Poojary.\n\n**About Mathuram Cafe:** Located along the Udupi-Manipal-Kundapur route in Brahmavara, this new pure vegetarian hotel has quickly caught the attention of local food lovers.\n\n**Opening Highlight:** The visit by MP Kota Srinivas Poojary added a special touch to Mathuram Cafe's launch.\n\n#brahmavara #udupi_manipal_kundapur #udupi #food #udupifood",
+      "tags": ["Mathuram Cafe", "Brahmavara", "Kota Srinivas Poojary", "Udupi food", "pure veg hotel Udupi", "Kundapur", "Manipal food", "Brahmavara hotel"],
+      "instagram_link": "https://www.instagram.com/p/DVdBGiZkqsB/?hl=en",
+      "canonical_hashtags": ["#brahmavara", "#udupi_manipal_kundapur", "#udupi", "#food", "#udupifood"]
+    }
+  ]
+}
