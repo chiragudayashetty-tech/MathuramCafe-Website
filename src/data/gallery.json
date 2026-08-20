@@ -1,7 +1,22 @@
 [
   {
+    "src": "/assets/Photos/Posters/bajji-udupi.webp",
+    "alt": "Bajji at Mathuram Cafe Udupi",
+    "category": "Posters"
+  },
+  {
+    "src": "/assets/Photos/Posters/benne-dosa-udupi.webp",
+    "alt": "Benne Dosa at Mathuram Cafe Udupi",
+    "category": "Posters"
+  },
+  {
     "src": "/assets/Photos/Posters/butter-nan-an-butter-paneer-poster-udupi.webp",
     "alt": "Butter nan an butter paneer poster at Mathuram Cafe Udupi",
+    "category": "Posters"
+  },
+  {
+    "src": "/assets/Photos/Posters/butter-panner-and-naan-udupi.webp",
+    "alt": "Butter panner and naan at Mathuram Cafe Udupi",
     "category": "Posters"
   },
   {
@@ -17,6 +32,11 @@
   {
     "src": "/assets/Photos/Posters/dosa-poster-udupi.webp",
     "alt": "Dosa poster at Mathuram Cafe Udupi",
+    "category": "Posters"
+  },
+  {
+    "src": "/assets/Photos/Posters/dosa-udupi.webp",
+    "alt": "Dosa at Mathuram Cafe Udupi",
     "category": "Posters"
   },
   {
@@ -45,8 +65,18 @@
     "category": "Posters"
   },
   {
+    "src": "/assets/Photos/Posters/thali-udupi.webp",
+    "alt": "Thali at Mathuram Cafe Udupi",
+    "category": "Posters"
+  },
+  {
     "src": "/assets/Photos/Posters/thathe-idli-poster-udupi.webp",
     "alt": "Thathe idli poster at Mathuram Cafe Udupi",
+    "category": "Posters"
+  },
+  {
+    "src": "/assets/Photos/Posters/veg-biryani-udupi.webp",
+    "alt": "Veg Biryani at Mathuram Cafe Udupi",
     "category": "Posters"
   },
   {
