@@ -5,6 +5,11 @@ import { motion } from 'framer-motion';
 const Blog = () => {
   const posts = [
     {
+      id: 'celebrities-at-mathuram-cafe-udupi',
+      title: 'The Choice of Leaders & Legends: Why Celebrities Love Mathuram Cafe, Udupi',
+      excerpt: 'Discover why prominent leaders and celebrities choose Mathuram Cafe in Brahmavara. Explore the Wall of Fame of the best vegetarian restaurant in Udupi.'
+    },
+    {
       id: 'top-10-must-try-udupi-foods-mathuram-cafe',
       title: 'Top 10 Must-Try Udupi Foods at Mathuram Cafe, Brahmavara (2026 Guide)',
       excerpt: 'Looking for the best food in Udupi? Explore the top 10 authentic Udupi dishes from crispy Masala Dosa to Gudbud Ice Cream with full photos.'
