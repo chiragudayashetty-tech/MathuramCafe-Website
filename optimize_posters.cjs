@@ -10,9 +10,13 @@ if (!fs.existsSync(outputDir)) {
 }
 
 const formatName = (name) => {
-  // Convert "Butter nan an butter paneer poster" -> "butter-nan-an-butter-paneer-poster"
   let formatted = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  // Append "-udupi" if not present
+  if (!formatted.includes('mathuram-cafe')) {
+    formatted += '-mathuram-cafe';
+  }
+  if (!formatted.includes('brahmavara')) {
+    formatted += '-brahmavara';
+  }
   if (!formatted.includes('udupi')) {
     formatted += '-udupi';
   }
@@ -38,7 +42,7 @@ const processImages = async () => {
 
     galleryEntries.push({
       src: `/assets/Photos/Posters/${newName}`,
-      alt: `${basename.replace(/-/g, ' ')} at Mathuram Cafe Udupi`,
+      alt: `${basename.replace(/[-_]+/g, ' ')} Poster | Mathuram Cafe Pure Veg Restaurant Brahmavara Udupi`,
       category: "Posters"
     });
   }
