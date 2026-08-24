@@ -5,6 +5,11 @@ import { motion } from 'framer-motion';
 const Blog = () => {
   const posts = [
     {
+      id: 'udupi-temple-food-trail',
+      title: 'Ultimate Udupi Temple Food Trail: Best Pure Veg Restaurants Near Sri Krishna Matha, Barkur & Brahmavara',
+      excerpt: 'Planning a pilgrimage to Sri Krishna Matha, Barkur, or Anegudde? Here is the ultimate Udupi temple food trail guide and the best pure veg restaurant on NH 66.'
+    },
+    {
       id: 'celebrities-at-mathuram-cafe-udupi',
       title: 'The Choice of Leaders & Legends: Why Celebrities Love Mathuram Cafe, Udupi',
       excerpt: 'Discover why prominent leaders and celebrities choose Mathuram Cafe in Brahmavara. Explore the Wall of Fame of the best vegetarian restaurant in Udupi.'
