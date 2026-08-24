@@ -1,5 +1,25 @@
 [
   {
+    "name": "Krithi K Shetty",
+    "rating": 5,
+    "reviewDate": "3 days ago",
+    "review": "There's a new, well-kept restaurant in town on Brahmavara Highway where u get space for parking aswell. It's a great spot to kick off your morning with a good breakfast.",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "featured": true
+  },
+  {
+    "name": "Bharathi S Nayak",
+    "rating": 5,
+    "reviewDate": "5 days ago",
+    "review": "First impression is the best impression. It was a lovely delightful brunch time. The staff are so cooperative and friendly. Food we ordered was very delicious.",
+    "food": 5,
+    "service": 5,
+    "atmosphere": 5,
+    "featured": true
+  },
+  {
     "name": "Nishan shetty Nishan",
     "rating": 5,
     "reviewDate": "3 weeks ago",
