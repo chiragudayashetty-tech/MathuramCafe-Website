@@ -134,19 +134,30 @@
   }
   
   .navbar {
-    padding: 10px 0;
+    padding: 8px 0;
   }
   
+  .navbar-container {
+    padding: 0 16px;
+  }
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
   .navbar-logo img {
-    height: 60px; /* Much smaller mobile height */
-    max-width: 60vw; /* Prevent it from pushing screen width */
+    height: 95px; /* Enlarged for clear visibility on phones */
+    max-width: 68vw;
     object-fit: contain;
-    transform: none;
+    transform: scale(1.1);
+    transform-origin: left center;
   }
   
   .navbar.scrolled .navbar-logo img {
-    height: 50px;
-    transform: none;
+    height: 75px;
+    transform: scale(1.05);
+    transform-origin: left center;
   }
   
   .navbar.transparent-home .nav-menu.active a {
