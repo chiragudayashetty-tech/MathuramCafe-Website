@@ -98,7 +98,7 @@ const Post9 = () => {
             <span className="road-badge gold">
               <FaCompass /> 2026 Road Trip Edition
             </span>
-            <span className="road-badge" style={{ background: '#1d3557', borderColor: '#457b9d', color: '#f1faee' }}>
+            <span className="road-badge blue">
               <FaCarSide /> 100% Pure Veg Pitstops
             </span>
           </div>
@@ -166,7 +166,7 @@ const Post9 = () => {
         </motion.div>
 
         {/* Main Road Trip Content & Checkpoints */}
-        <article className="glass-panel" style={{ padding: '35px', borderRadius: '18px', lineHeight: '1.8' }}>
+        <article className="road-post-article">
           
           <p style={{ fontSize: '1.15rem', marginBottom: '25px' }}>
             The <strong>National Highway 66 (NH 66)</strong> stretch connecting <strong>Mangalore, Udupi, Kundapur, Murudeshwar, and Goa</strong> is celebrated as one of India's most scenic road trip corridors. With coconut groves on your right and the azure Arabian Sea playing peek-a-boo on your left, it’s a dream drive for road-trippers, bikers, and families traveling from Bangalore, Mumbai, or Kerala.
@@ -430,7 +430,7 @@ const Post9 = () => {
                 <h4 style={{ marginTop: '10px' }}>
                   <span>{item.icon}</span> {item.title}
                 </h4>
-                <div style={{ fontSize: '0.85rem', color: '#bbb', marginBottom: '8px' }}>
+                <div style={{ fontSize: '0.85rem', color: 'var(--color-text-light)', marginBottom: '8px' }}>
                   <FaClock style={{ marginRight: '5px' }} /> {item.time}
                 </div>
                 <p style={{ fontSize: '0.9rem', color: 'var(--color-text-light)' }}>
@@ -441,11 +441,11 @@ const Post9 = () => {
           </div>
 
           {/* High Conversion Highway CTA Box */}
-          <div className="cta-box" style={{ background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(30, 25, 15, 0.9) 100%)', padding: '35px', borderRadius: '16px', textAlign: 'center', marginTop: '50px', border: '1px solid rgba(212, 175, 55, 0.3)' }}>
-            <h3 className="gold-text" style={{ fontSize: '1.6rem', marginBottom: '12px' }}>
+          <div className="road-cta-box">
+            <h3 className="gold-text">
               Hitting the Coastal Highway Today?
             </h3>
-            <p style={{ maxWidth: '650px', margin: '0 auto 25px', color: '#f0f0f0' }}>
+            <p>
               Make your coastal road trip unforgettable. Pull into <strong>Mathuram Cafe on NH 66, Brahmavara</strong> for hot dosas, refreshing degree filter coffee, and the finest vegetarian hospitality in coastal Karnataka.
             </p>
             <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -461,7 +461,7 @@ const Post9 = () => {
               >
                 <FaMapMarkerAlt style={{ marginRight: '8px' }} /> Navigate on Google Maps
               </a>
-              <Link to="/travel-guide/udupi-2-day-itinerary" className="btn btn-primary" style={{ padding: '12px 26px', fontSize: '1rem', background: '#27ae60', borderColor: '#27ae60' }}>
+              <Link to="/travel-guide/udupi-2-day-itinerary" className="btn btn-primary" style={{ padding: '12px 26px', fontSize: '1rem', background: '#4E6B3A', borderColor: '#4E6B3A', color: '#ffffff' }}>
                 <FaCompass style={{ marginRight: '8px' }} /> 2-Day Travel Guide
               </Link>
             </div>
