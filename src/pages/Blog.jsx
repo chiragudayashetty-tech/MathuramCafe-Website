@@ -5,6 +5,11 @@ import { motion } from 'framer-motion';
 const Blog = () => {
   const posts = [
     {
+      id: 'mangalore-to-murudeshwar-goa-nh66-road-trip-food-guide',
+      title: 'Mangalore to Murudeshwar & Goa Road Trip: The Best Pure Veg Highway Pitstops on NH 66',
+      excerpt: 'Cruising the coastal NH 66 highway? Here is the ultimate driver’s food trail featuring massive vehicle parking, clean restrooms, and authentic pure veg food.'
+    },
+    {
       id: 'udupi-temple-food-trail',
       title: 'Ultimate Udupi Temple Food Trail: Best Pure Veg Restaurants Near Sri Krishna Matha, Barkur & Brahmavara',
       excerpt: 'Planning a pilgrimage to Sri Krishna Matha, Barkur, or Anegudde? Here is the ultimate Udupi temple food trail guide and the best pure veg restaurant on NH 66.'

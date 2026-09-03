@@ -19,6 +19,7 @@ import Post5 from './pages/posts/Post5';
 import Post6 from './pages/posts/Post6';
 import Post7 from './pages/posts/Post7';
 import Post8 from './pages/posts/Post8';
+import Post9 from './pages/posts/Post9';
 import PureVeg from './pages/seo/PureVeg';
 import SouthIndian from './pages/seo/SouthIndian';
 import FamilyRestaurant from './pages/seo/FamilyRestaurant';
@@ -70,6 +71,7 @@ function App() {
               <Route path="/lunch-in-brahmavara" element={<Lunch />} />
               <Route path="/blog/celebrities-at-mathuram-cafe-udupi" element={<Post7 />} />
               <Route path="/blog/udupi-temple-food-trail" element={<Post8 />} />
+              <Route path="/blog/mangalore-to-murudeshwar-goa-nh66-road-trip-food-guide" element={<Post9 />} />
               <Route path="/travel-guide" element={<TravelGuide />} />
               <Route path="/travel-guide/udupi-2-day-itinerary" element={<UdupiItinerary />} />
             </Routes>
