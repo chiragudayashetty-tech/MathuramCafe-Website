@@ -25,6 +25,7 @@ import SouthIndian from './pages/seo/SouthIndian';
 import FamilyRestaurant from './pages/seo/FamilyRestaurant';
 import Breakfast from './pages/seo/Breakfast';
 import Lunch from './pages/seo/Lunch';
+import BestInUdupi from './pages/seo/BestInUdupi';
 import TravelGuide from './pages/TravelGuide';
 import UdupiItinerary from './pages/guides/UdupiItinerary';
 import Preloader from './components/Preloader';
@@ -69,6 +70,8 @@ function App() {
               <Route path="/family-restaurant-in-brahmavara" element={<FamilyRestaurant />} />
               <Route path="/breakfast-in-brahmavara" element={<Breakfast />} />
               <Route path="/lunch-in-brahmavara" element={<Lunch />} />
+              <Route path="/best-vegetarian-restaurant-in-udupi" element={<BestInUdupi />} />
+              <Route path="/best-veg-restaurant-in-udupi" element={<BestInUdupi />} />
               <Route path="/blog/celebrities-at-mathuram-cafe-udupi" element={<Post7 />} />
               <Route path="/blog/udupi-temple-food-trail" element={<Post8 />} />
               <Route path="/blog/mangalore-to-murudeshwar-goa-nh66-road-trip-food-guide" element={<Post9 />} />

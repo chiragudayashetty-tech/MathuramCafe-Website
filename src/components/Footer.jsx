@@ -56,6 +56,7 @@ const Footer = () => {
       <div className="footer-seo" style={{ borderTop: '1px solid var(--color-border)', marginTop: '20px', paddingTop: '20px', textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-light)' }}>
         <div className="container">
           <p style={{ lineHeight: '2' }}>
+            <Link to="/best-vegetarian-restaurant-in-udupi">Best Pure Veg Restaurant in Udupi</Link> |{' '}
             <Link to="/best-pure-veg-restaurant-in-brahmavara">Best Pure Veg Restaurant in Brahmavara</Link> |{' '}
             <Link to="/south-indian-restaurant-in-brahmavara">South Indian Restaurant in Brahmavara</Link> |{' '}
             <Link to="/family-restaurant-in-brahmavara">Family Restaurant in Brahmavara</Link> |{' '}
