@@ -5,6 +5,11 @@ import { motion } from 'framer-motion';
 const Blog = () => {
   const posts = [
     {
+      id: 'secret-science-of-udupi-ghee-dosa-mathuram-cafe',
+      title: 'The Midnight Dosa Craving & The Secret Science of Udupi Ghee Roast: Why Mathuram Cafe Recipes Taste So Addictive',
+      excerpt: 'Ever wondered why Udupi Masala Dosa and Thatte Idli trigger instant cravings? Uncover the 4 secret culinary laws and local foodie hacks (with English & Kannada translation!).'
+    },
+    {
       id: 'mangalore-to-murudeshwar-goa-nh66-road-trip-food-guide',
       title: 'Mangalore to Murudeshwar & Goa Road Trip: The Best Pure Veg Highway Pitstops on NH 66',
       excerpt: 'Cruising the coastal NH 66 highway? Here is the ultimate driver’s food trail featuring massive vehicle parking, clean restrooms, and authentic pure veg food.'
