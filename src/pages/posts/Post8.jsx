@@ -22,7 +22,7 @@ const Post8 = () => {
         />
         <meta 
           name="keywords" 
-          content="best veg food near udupi temple, restaurants near barkur temples, pure veg breakfast after krishna temple visit, sattvic food udupi, udupi temple food trail, best vegetarian restaurant brahmavara, udupi brahmin meals" 
+          content="ಉಡುಪಿ ಕೃಷ್ಣ ಮಠ ಊಟ, ಬಾರಕೂರು ದೇವಸ್ಥಾನ ಪ್ರವಾಸ, ಸಾತ್ವಿಕ ಆಹಾರ ಉಡುಪಿ, ಉಡುಪಿ ಬ್ರಾಹ್ಮಣ ಊಟ, best veg food near udupi temple, restaurants near barkur temples, pure veg breakfast after krishna temple visit, sattvic food udupi, udupi temple food trail, best vegetarian restaurant brahmavara, udupi brahmin meals" 
         />
       </Helmet>
 

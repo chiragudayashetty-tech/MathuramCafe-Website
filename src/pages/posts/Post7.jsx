@@ -21,7 +21,7 @@ const Post7 = () => {
             ? "Discover why prominent leaders and celebrities choose Mathuram Cafe in Brahmavara. Explore the Wall of Fame of the best vegetarian restaurant in Udupi."
             : "ಕರ್ನಾಟಕದ ಖ್ಯಾತ ನಾಯಕರು ಹಾಗೂ ಕಲಾವಿದರು ಬ್ರಹ್ಮಾವರದ ಮಥುರಾಮ್ ಕೆಫೆಯನ್ನು ಏಕೆ ಆಯ್ಕೆ ಮಾಡುತ್ತಾರೆ? ನಮ್ಮ ವಾಲ್ ಆಫ್ ಫೇಮ್ ಮತ್ತು ಗಣ್ಯರ ಭೇಟಿಯ ವಿವರಗಳು."}
         />
-        <meta name="keywords" content="best restaurant in udupi, udupi famous hotel, places to eat in udupi, mathuram cafe brahmavara, celebrity favorite udupi, top pure veg udupi, udupi food destinations" />
+        <meta name="keywords" content="ಉಡುಪಿ ಗಣ್ಯರ ಭೇಟಿಯ ಹೋಟೆಲ್, ವಾಲ್ ಆಫ್ ಫೇಮ್ ಉಡುಪಿ, ಸೆಲೆಬ್ರಿಟಿ ಫೇವರಿಟ್ ಹೋಟೆಲ್ ಬ್ರಹ್ಮಾವರ, best restaurant in udupi, udupi famous hotel, places to eat in udupi, mathuram cafe brahmavara, celebrity favorite udupi, top pure veg udupi, udupi food destinations" />
       </Helmet>
 
       <div className="container" style={{ maxWidth: '900px' }}>

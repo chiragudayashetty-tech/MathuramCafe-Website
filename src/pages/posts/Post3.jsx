@@ -20,6 +20,10 @@ const Post3 = () => {
             ? "Looking for the best family restaurant near Manipal and Udupi? Enjoy spacious AC seating, huge parking, and diverse 100% veg meals at Mathuram Cafe."
             : "ಮಣಿಪಾಲ ಹಾಗೂ ಉಡುಪಿ ಸುತ್ತಮುತ್ತ ಕುಟುಂಬ ಸಮೇತ ಊಟಕ್ಕೆ ಉತ್ತಮ ಹೋಟೆಲ್ ಹುಡುಕುತ್ತಿದ್ದೀರಾ? ವಿಶಾಲ ಪಾರ್ಕಿಂಗ್, ಎಸಿ ಡೈನಿಂಗ್ ಮತ್ತು ರುಚಿಕರ ಶುದ್ಧ ಸಸ್ಯಾಹಾರ ಇಲ್ಲಿದೆ."}
         />
+        <meta 
+          name="keywords" 
+          content="ಮಣಿಪಾಲ ಫ್ಯಾಮಿಲಿ ಹೋಟೆಲ್, ಉಡುಪಿ ಫ್ಯಾಮಿಲಿ ರೆಸ್ಟೋರೆಂಟ್, ಬ್ರಹ್ಮಾವರ ಸಸ್ಯಾಹಾರಿ ಊಟ, ಎಸಿ ರೆಸ್ಟೋರೆಂಟ್ ಉಡುಪಿ, ಬಾಳೆಎಲೆ ಊಟ, best family restaurant manipal, udupi pure veg family dining, brahmavara ac restaurant" 
+        />
       </Helmet>
 
       <BlogLangToggle lang={lang} setLang={setLang} />

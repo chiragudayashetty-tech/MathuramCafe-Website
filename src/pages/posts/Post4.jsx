@@ -20,6 +20,10 @@ const Post4 = () => {
             ? "Cruising on NH 66 between Mangalore, Udupi and Kundapura? Discover why Mathuram Cafe in Brahmavara is the top highway pitstop with clean restrooms and parking."
             : "ಮಂಗಳೂರು, ಉಡುಪಿ ಹಾಗೂ ಕುಂದಾಪುರ ಹೆದ್ದಾರಿ (NH 66) ಸಂಚಾರದಲ್ಲಿ ಸ್ವಚ್ಛ ಶೌಚಾಲಯ, ವಿಶಾಲ ಪಾರ್ಕಿಂಗ್ ಮತ್ತು ರುಚಿಕರ ಶುದ್ಧ ಸಸ್ಯಾಹಾರ ನೀಡುವ ಮಥುರಾಮ್ ಕೆಫೆ."}
         />
+        <meta 
+          name="keywords" 
+          content="ರಾಷ್ಟ್ರೀಯ ಹೆದ್ದಾರಿ 66 ಹೋಟೆಲ್, ಉಡುಪಿ ಹೈವೇ ರೆಸ್ಟೋರೆಂಟ್, ಬ್ರಹ್ಮಾವರ ಪಾರ್ಕಿಂಗ್ ಹೋಟೆಲ್, ಸ್ವಚ್ಛ ಶೌಚಾಲಯ ಹೋಟೆಲ್ ಉಡುಪಿ, NH 66 pure veg restaurant, highway food stop udupi, mangalore kundapur road trip food" 
+        />
       </Helmet>
 
       <BlogLangToggle lang={lang} setLang={setLang} />

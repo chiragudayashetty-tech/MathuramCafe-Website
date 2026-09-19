@@ -20,6 +20,10 @@ const Post5 = () => {
             ? "Discover why Mathuram Cafe in Brahmavara is rated the best pure veg restaurant in whole Udupi. Pure vegetarian Udupi thalis, dosas, and family dining."
             : "ಬ್ರಹ್ಮಾವರದ ಮಥುರಾಮ್ ಕೆಫೆ ಇಡೀ ಉಡುಪಿ ಜಿಲ್ಲೆಯಲ್ಲೇ ಅತ್ಯುತ್ತಮ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಹೋಟೆಲ್ ಎನಿಸಿಕೊಳ್ಳಲು ಕಾರಣವೇನು? ಸಾಂಪ್ರದಾಯಿಕ ಊಟ, ಕೊಟ್ಟೆ ಕಡಬು ಮತ್ತು ತುಪ್ಪದ ದೋಸೆಗಳು."}
         />
+        <meta 
+          name="keywords" 
+          content="ಉಡುಪಿಯ ನಂಬರ್ 1 ಹೋಟೆಲ್, ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ರೆಸ್ಟೋರೆಂಟ್ ಉಡುಪಿ, ಕೊಟ್ಟೆ ಕಡಬು ಉಡುಪಿ, ಬಾಳೆಎಲೆ ಊಟ ಬ್ರಹ್ಮಾವರ, ಮಥುರಾಮ್ ಕೆಫೆ, best veg restaurant in whole udupi, top pure veg dining udupi, authentic udupi cuisine" 
+        />
       </Helmet>
 
       <BlogLangToggle lang={lang} setLang={setLang} />

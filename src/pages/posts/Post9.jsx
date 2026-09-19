@@ -123,7 +123,7 @@ const Post9 = () => {
         />
         <meta 
           name="keywords" 
-          content="nh 66 restaurants with parking, bangalore to goa road trip food stop, mangalore to kundapur highway breakfast, best stop for tea breakfast nh66 udupi, pure veg restaurant nh66, brahmavara highway restaurant, mathuram cafe brahmavara" 
+          content="ರಾಷ್ಟ್ರೀಯ ಹೆದ್ದಾರಿ 66 ಹೋಟೆಲ್ ಪಾರ್ಕಿಂಗ್, ಮಂಗಳೂರು ಗೋವಾ ರೋಡ್ ಟ್ರಿಪ್ ಊಟ, ಮುರುಡೇಶ್ವರ ಪ್ರವಾಸ ಹೋಟೆಲ್, nh 66 restaurants with parking, bangalore to goa road trip food stop, mangalore to kundapur highway breakfast, best stop for tea breakfast nh66 udupi, pure veg restaurant nh66, brahmavara highway restaurant, mathuram cafe brahmavara" 
         />
       </Helmet>
 

@@ -74,7 +74,7 @@ const Post10 = () => {
         />
         <meta 
           name="keywords" 
-          content="secret of udupi dosa, best ghee podi dosa udupi, mathuram cafe food science, authentic udupi sambar recipe, thatte idli hacks, udupi breakfast secrets" 
+          content="ಉಡುಪಿ ಮಸಾಲ ದೋಸೆ ರಹಸ್ಯ, ತುಪ್ಪದ ರೋಸ್ಟ್ ದೋಸೆ ಉಡುಪಿ, ಮಥುರಾಮ್ ಕೆಫೆ ತಿಂಡಿ ರಹಸ್ಯ, ತಟ್ಟೆ ಇಡ್ಲಿ ಚಟ್ನಿಪುಡಿ, secret of udupi dosa, best ghee podi dosa udupi, mathuram cafe food science, authentic udupi sambar recipe, thatte idli hacks, udupi breakfast secrets" 
         />
       </Helmet>
 

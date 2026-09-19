@@ -20,6 +20,10 @@ const Post2 = () => {
             ? "Looking for the best breakfast in Udupi? Explore Ghee Podi Thatte Idli, Benne Masala Dosa, and Kumbakonam Filter Coffee at Mathuram Cafe."
             : "ಉಡುಪಿಯ ಅತ್ಯುತ್ತಮ ಉಪಹಾರ ಹುಡುಕುತ್ತಿದ್ದೀರಾ? ಮಥುರಾಮ್ ಕೆಫೆಯ ತುಪ್ಪದ ತಟ್ಟೆ ಇಡ್ಲಿ, ಬೆಣ್ಣೆ ಮಸಾಲ ದೋಸೆ ಮತ್ತು ಕುಂಭಕೋಣಂ ಡಿಗ್ರಿ ಫಿಲ್ಟರ್ ಕಾಫಿ ಸವಿಯಿರಿ."}
         />
+        <meta 
+          name="keywords" 
+          content="ಉಡುಪಿ ಬೆಳಗಿನ ತಿಂಡಿ, ದಕ್ಷಿಣ ಭಾರತೀಯ ಉಪಹಾರ, ತುಪ್ಪದ ತಟ್ಟೆ ಇಡ್ಲಿ, ಬೆಣ್ಣೆ ಮಸಾಲ ದೋಸೆ, ಕುಂಭಕೋಣಂ ಡಿಗ್ರಿ ಫಿಲ್ಟರ್ ಕಾಫಿ, ಮಥುರಾಮ್ ಕೆಫೆ, south indian breakfast udupi, best idli dosa brahmavara, degree coffee udupi" 
+        />
       </Helmet>
 
       <BlogLangToggle lang={lang} setLang={setLang} />

@@ -20,6 +20,10 @@ const Post6 = () => {
             ? "Looking for the best food in Udupi? Explore the top 10 authentic Udupi dishes from crispy Masala Dosa to Gudbud Ice Cream with full photos at Mathuram Cafe."
             : "ಉಡುಪಿಯ ಅತ್ಯುತ್ತಮ ಆಹಾರ ಯಾವುದು? ಗರಿಗರಿ ಮಸಾಲ ದೋಸೆಯಿಂದ ಹಿಡಿದು ಗಡ್‌ಬಡ್ ಐಸ್‌ಕ್ರೀಮ್‌ವರೆಗೆ ಮಥುರಾಮ್ ಕೆಫೆಯ ಟಾಪ್ 10 ತಿನಿಸುಗಳ ಫೋಟೋ ಸಹಿತ ಪಟ್ಟಿ."}
         />
+        <meta 
+          name="keywords" 
+          content="ಉಡುಪಿಯ ಪ್ರಸಿದ್ಧ ತಿನಿಸುಗಳು, ಮಸಾಲ ದೋಸೆ ಉಡುಪಿ, ಗಡ್‌ಬಡ್ ಐಸ್‌ಕ್ರೀಮ್, ಪೂರಿ ಸಾಗು, ದಾಲ್ ತಡ್ಕಾ, ವೆಜ್ ಬಿರಿಯಾನಿ, top 10 foods udupi, must try food udupi, best masala dosa brahmavara, udupi gudbud ice cream" 
+        />
       </Helmet>
 
       <BlogLangToggle lang={lang} setLang={setLang} />
